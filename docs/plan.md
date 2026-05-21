@@ -188,40 +188,30 @@ ICCV 2021 ChaLearn LAP Challenge에서 isolated SLR 분야 SOTA를 기록한 모
 
 ## 5.1 Unity 엔진 버전
 
-- **Unity 6000.3.14f1 (Unity 6.3 LTS)** — 지원 종료 2027년 12월
-- 채택 근거:
-  - Unity 6.0 이후 두 번째 LTS로 안정성 검증 단계 진입
-  - ONNX opset 7~25 지원 (SL-GCN export 시 다운그레이드 불필요)
-  - AR Foundation 6.x · Inference Engine 2.x 동시 지원
-  - Unity 6.3.5 이후 InferenceEngine 관련 주요 크래시 (UUM-131538) 해결됨
+세부 에디터 버전은 운영 진실의 원천인 [CLAUDE.md](../CLAUDE.md) 참조.
+
+채택 근거:
+- Unity 6.0 이후 두 번째 LTS로 안정성 검증 단계 진입
+- ONNX opset 7~25 지원 (SL-GCN export 시 다운그레이드 불필요)
+- AR Foundation 6.x · Inference Engine 2.x 동시 지원
+- Unity 6.3 LTS의 InferenceEngine 관련 주요 크래시 (UUM-131538)가 해결되어 안정성 확보
 
 ## 5.2 핵심 패키지 구성
 
-| 분류 | 패키지 | 버전 | 용도 |
-|---|---|---|---|
-| AI 추론 | `com.unity.ai.inference` (Sentis) | 2.4.x | SL-GCN ONNX 모델 런타임 추론 |
-| AR | `com.unity.xr.arfoundation` | 6.x.x | 학생 얼굴·위치 추적, 카메라 피드 |
-| AR | `com.unity.xr.arcore` | 6.x.x | Android ARCore 백엔드 |
-| AR | `com.unity.xr.arkit` | 6.x.x | iOS ARKit 백엔드 |
-| 렌더링 | `com.unity.render-pipelines.universal` | 17.x.x | URP (모바일 AR 권장) |
-| 입력 | `com.unity.inputsystem` | 1.x.x | 터치 입력 처리 |
-| UI | TextMeshPro | 내장 | AR 말풍선 및 자막 텍스트 |
-| 외부 | MediaPipe Unity Plugin (homuler) | v0.16.x | 키포인트 추출 (Pose · Hand · Face) |
+세부 패키지 버전 및 의존성은 운영 진실의 원천인 [CLAUDE.md](../CLAUDE.md) 참조.
 
-> Sentis는 Unity 6.3에서 패키지 기술명이 `com.unity.ai.inference`이며, 표시명은 Sentis로 유지 (Inference Engine 2.4 이후 명칭 환원).
+기획적 관점의 구성요소:
+- AI 추론: Sentis (Unity AI Inference) — SL-GCN ONNX 런타임
+- AR: AR Foundation + ARCore + ARKit
+- 렌더링: URP (모바일 AR 권장)
+- 키포인트 추출: MediaPipe Unity Plugin (homuler 커뮤니티 포팅)
+- UI: TextMeshPro
+
+MediaPipe Unity Plugin은 본격 코드 작성 직전에 설치 예정 (의도적 지연, 셋업 단계 컴파일 부담 회피).
 
 ## 5.3 빌드 설정 (Project Settings)
 
-| 항목 | 값 | 비고 |
-|---|---|---|
-| Scripting Backend | IL2CPP | Android · iOS 빌드 필수 |
-| Api Compatibility Level | .NET Standard 2.1 | Inference Engine · MediaPipe 호환 |
-| Target Architecture (Android) | ARM64 only | 모바일 추론 최적화 |
-| Color Space | Linear | URP 권장 |
-| Graphics API (Android) | Vulkan, OpenGLES3 (Fallback) | MediaPipe GPU 호환성 |
-| Graphics API (iOS) | Metal | iOS 표준 |
-| Minimum API Level (Android) | API 26 (Android 8.0) | ARCore 최소 요구사항 |
-| Target iOS Version | iOS 13.0 이상 | ARKit 4 기능 활용 |
+세부 빌드 설정 값은 운영 진실의 원천인 [CLAUDE.md](../CLAUDE.md) 참조.
 
 ## 5.4 팀 협업 — 버전 고정 규약
 
