@@ -58,3 +58,7 @@ SB_Temp_*/
 # 개인 메모
 notes/
 todo.md
+
+# === 대용량 외부 라이브러리 (각자 다운로드) ===
+# MediaPipe Unity Plugin tgz (280MB, GitHub 100MB 한도 초과)
+Packages/com.github.homuler.mediapipe-*.tgz
