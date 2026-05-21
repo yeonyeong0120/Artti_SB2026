@@ -39,6 +39,15 @@
 
 ---
 
+## UGUI 버전 메모
+
+- `manifest.json`에 `"com.unity.ugui": "1.0.0"` 명시
+- 실제 Package Manager 표시는 2.0.0 (MediaPipe tarball 환경에서 자동 해석)
+- 컴파일/런타임 정상 동작 확인됨 (2026-05-21)
+- 향후 UGUI 충돌 재발 시 이 명시가 회귀 방지 역할
+
+---
+
 ## 필수 운영 설정
 
 | 항목 | 값 | 위치 |
