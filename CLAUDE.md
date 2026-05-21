@@ -61,17 +61,13 @@
 Assets/_Project/
 ├── Scenes/       - 우리 씬
 ├── Scripts/      - C# 스크립트
-│   ├── Core/     - 매니저
-│   ├── ML/       - SL-GCN, MediaPipe 처리
-│   ├── AR/       - AR Foundation, 말풍선
-│   ├── Gemini/   - API 통신
-│   ├── UI/       - 화면 UI
+│   ├── Pipeline/ - 카메라→키포인트→추론→문장변환→TTS 메인 흐름
+│   ├── UI/       - 화면 UI, AR 말풍선
 │   └── Utils/    - 유틸
 ├── Models/       - ONNX 파일
 ├── Prefabs/
 ├── Materials/
 ├── Textures/
-├── Audio/        - TTS 캐시 등
 └── Resources/
 ```
 
@@ -85,8 +81,9 @@ Assets/_Project/
 ### 네임스페이스
 모든 코드는 `Artti.SignBridge.{서브도메인}` 아래.
 ```csharp
-namespace Artti.SignBridge.ML { ... }
-namespace Artti.SignBridge.AR { ... }
+namespace Artti.SignBridge.Pipeline { ... }
+namespace Artti.SignBridge.UI { ... }
+namespace Artti.SignBridge.Utils { ... }
 ```
 
 ### 언어
