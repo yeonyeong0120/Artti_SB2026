@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SignBridge 패키지 가시성(<queries>) 전용 Android 라이브러리 모듈.
+  AR 템플릿의 메인 AndroidManifest는 건드리지 않고, Gradle 매니페스트 머저가
+  아래 queries를 앱 매니페스트에 병합한다(minSdk 30 / Android 11+ 패키지 가시성).
+    · TTS_SERVICE  : 네이티브 TextToSpeech 엔진 바인딩(TtsService)
+    · SENDTO+mailto: 문의하기 OS 기본 메일 작성 화면(SettingsScreen)
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.artti.signbridge.queries">
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO" />
+            <data android:scheme="mailto" />
+        </intent>
+    </queries>
+
+</manifest>
