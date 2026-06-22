@@ -1,0 +1,2 @@
+C:\Users\Stu_33\Documents\GitHub\Artti_SB2026\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\Stu_33\Documents\GitHub\Artti_SB2026\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

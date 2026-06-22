@@ -1,0 +1,110 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m81D650C50874AB012DB86BC4232A68C2C620A988 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m06A81CD3E9B5B9ADA51C3CC325E92FE889024FA2 (void);
+extern void MaterialSymbol_get_symbol_m1B866EE2FCADD0B6815C96BD5BD0F2C6D5B6FDFF (void);
+extern void MaterialSymbol_set_symbol_m9E47867FB6DB7826268EC385CC29CA4D6ED34509 (void);
+extern void MaterialSymbol_get_code_m03974433FEDF518F35BB341F52748E281A87862A (void);
+extern void MaterialSymbol_set_code_m95639A5071FCBDA19E1F89679E3B701283D5FF05 (void);
+extern void MaterialSymbol_get_fill_mC494E1616F496C224EF35BCDB961B25BDB94B3DC (void);
+extern void MaterialSymbol_set_fill_m91D151C5B6059EB452B537B3402D92702DAE2435 (void);
+extern void MaterialSymbol_get_scale_m053FA95F8FA0A06233A3AF35D2C9F932AEFCAC3D (void);
+extern void MaterialSymbol_set_scale_mD81DBCDD4E820E6AC368FBE2F2402D4A439463C1 (void);
+extern void MaterialSymbol_Start_mFB8EC5001D50546484C9BF54AE411DCD1B1D3B1D (void);
+extern void MaterialSymbol_Init_mA9885AEC5D1C715A7D45D951DD53589EC02ADF13 (void);
+extern void MaterialSymbol_UpdateSymbol_mD129C38162FA20449F64D681201147813FC15D4D (void);
+extern void MaterialSymbol_UpdateFontSize_m34CE83B1C75C87E63DF436164B210391867D3086 (void);
+extern void MaterialSymbol_OnRectTransformDimensionsChange_mC8EF97663810D88DC793F38DDB9C076FC48B2824 (void);
+extern void MaterialSymbol_LoadFontRef_mB5BD34D0A2EDC8B39A6950D214C9B8EECEAE720E (void);
+extern void MaterialSymbol_ConvertCharToHex_m8500B59C11DE2DFB69DEF4171713FD2F0F0570BF (void);
+extern void MaterialSymbol_ConvertHexToChar_m0AA3DD68606A569F6F537162867A3402BFE03F5A (void);
+extern void MaterialSymbol__ctor_m9AE777621B3332A85628F4208E3F5DDFE6447CED (void);
+extern void MaterialSymbolData__ctor_mB4A37D8E0A018F4F48477BF42761EF7AD8D5C4B6 (void);
+extern void MaterialSymbolsFontRef_get_standard_m9E56BFBC580511D3A0462675FB03B1E5B040E4FB (void);
+extern void MaterialSymbolsFontRef_get_filled_m5E3C0F77E32A44BB475709EFBA0575E5732F242C (void);
+extern void MaterialSymbolsFontRef__ctor_mAA8C35E04E4FF4BE14BF9470AEFE42EC0F10155D (void);
+static Il2CppMethodPointer s_methodPointers[23] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m81D650C50874AB012DB86BC4232A68C2C620A988,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m06A81CD3E9B5B9ADA51C3CC325E92FE889024FA2,
+	MaterialSymbol_get_symbol_m1B866EE2FCADD0B6815C96BD5BD0F2C6D5B6FDFF,
+	MaterialSymbol_set_symbol_m9E47867FB6DB7826268EC385CC29CA4D6ED34509,
+	MaterialSymbol_get_code_m03974433FEDF518F35BB341F52748E281A87862A,
+	MaterialSymbol_set_code_m95639A5071FCBDA19E1F89679E3B701283D5FF05,
+	MaterialSymbol_get_fill_mC494E1616F496C224EF35BCDB961B25BDB94B3DC,
+	MaterialSymbol_set_fill_m91D151C5B6059EB452B537B3402D92702DAE2435,
+	MaterialSymbol_get_scale_m053FA95F8FA0A06233A3AF35D2C9F932AEFCAC3D,
+	MaterialSymbol_set_scale_mD81DBCDD4E820E6AC368FBE2F2402D4A439463C1,
+	MaterialSymbol_Start_mFB8EC5001D50546484C9BF54AE411DCD1B1D3B1D,
+	MaterialSymbol_Init_mA9885AEC5D1C715A7D45D951DD53589EC02ADF13,
+	MaterialSymbol_UpdateSymbol_mD129C38162FA20449F64D681201147813FC15D4D,
+	MaterialSymbol_UpdateFontSize_m34CE83B1C75C87E63DF436164B210391867D3086,
+	MaterialSymbol_OnRectTransformDimensionsChange_mC8EF97663810D88DC793F38DDB9C076FC48B2824,
+	MaterialSymbol_LoadFontRef_mB5BD34D0A2EDC8B39A6950D214C9B8EECEAE720E,
+	MaterialSymbol_ConvertCharToHex_m8500B59C11DE2DFB69DEF4171713FD2F0F0570BF,
+	MaterialSymbol_ConvertHexToChar_m0AA3DD68606A569F6F537162867A3402BFE03F5A,
+	MaterialSymbol__ctor_m9AE777621B3332A85628F4208E3F5DDFE6447CED,
+	MaterialSymbolData__ctor_mB4A37D8E0A018F4F48477BF42761EF7AD8D5C4B6,
+	MaterialSymbolsFontRef_get_standard_m9E56BFBC580511D3A0462675FB03B1E5B040E4FB,
+	MaterialSymbolsFontRef_get_filled_m5E3C0F77E32A44BB475709EFBA0575E5732F242C,
+	MaterialSymbolsFontRef__ctor_mAA8C35E04E4FF4BE14BF9470AEFE42EC0F10155D,
+};
+extern void MaterialSymbolData__ctor_mB4A37D8E0A018F4F48477BF42761EF7AD8D5C4B6_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
+{
+	{ 0x06000014, MaterialSymbolData__ctor_mB4A37D8E0A018F4F48477BF42761EF7AD8D5C4B6_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[23] = 
+{
+	36426,
+	20872,
+	20585,
+	15747,
+	20849,
+	16001,
+	20364,
+	15523,
+	20743,
+	15898,
+	20872,
+	20872,
+	20872,
+	20872,
+	20872,
+	36271,
+	33994,
+	34326,
+	20872,
+	8134,
+	20625,
+	20625,
+	20872,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_MaterialSymbols_CodeGenModule;
+const Il2CppCodeGenModule g_MaterialSymbols_CodeGenModule = 
+{
+	"MaterialSymbols.dll",
+	23,
+	s_methodPointers,
+	1,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
