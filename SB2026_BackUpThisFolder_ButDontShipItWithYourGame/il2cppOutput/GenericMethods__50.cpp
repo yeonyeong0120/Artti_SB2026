@@ -12034,7 +12034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SalientPointFrame_SetExtension_TisIl2Cpp
 		return;
 	}
 }
-// Method Definition Index: 133211
+// Method Definition Index: 133240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ScreenManager_Get_TisRuntimeObject_mEDDA58611BA26BA2BA96D35CADAE6B05B168F008_gshared (ScreenManager_tC3BBDDD53EFE4CEB691E855D8272CB3A662C86C7* __this, int32_t ___0_screen, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))

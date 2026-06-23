@@ -21,6 +21,9 @@ namespace Mediapipe.Unity.Sample.Holistic
 
         // ← KSL: 점이 나오면 이 정적 이벤트로 알림 (KslHolisticHook 이 구독). 샘플은 KSL 타입을 참조하지 않음.
         public static event System.Action<NormalizedLandmarkList, NormalizedLandmarkList, NormalizedLandmarkList> OnKslLandmarks;
+        // ★ 실제 카메라 영상 크기 (KslHolisticHook 가 읽어감). 0이면 아직 준비 전.
+        public static int KslImgW = 0;
+        public static int KslImgH = 0;
         private NormalizedLandmarkList _kslPose, _kslLeft, _kslRight;
 
         private Experimental.TextureFramePool _textureFramePool;
@@ -90,6 +93,11 @@ namespace Mediapipe.Unity.Sample.Holistic
             // Use RGBA32 as the input format.
             // TODO: When using GpuBuffer, MediaPipe assumes that the input format is BGRA, so the following code must be fixed.
             _textureFramePool = new Experimental.TextureFramePool(imageSource.textureWidth, imageSource.textureHeight, TextureFormat.RGBA32, 10);
+
+            // ★ 실제 카메라 크기를 정적 변수에 저장 (KSL 추론용)
+            KslImgW = imageSource.textureWidth;
+            KslImgH = imageSource.textureHeight;
+            Debug.Log($"[KSL] ImageSource size = {KslImgW}x{KslImgH}, rotation={imageSource.rotation}");
 
             // NOTE: The screen will be resized later, keeping the aspect ratio.
             screen.Initialize(imageSource);

@@ -3,233 +3,151 @@ using Unity.InferenceEngine;          // 패키지: com.unity.ai.inference
 using System;
 using System.Collections.Generic;
 
-// SignBridge KSL-60 수어 인식기 (단어 확정 규칙 포함)
-// - ksl_60_joint_best.onnx 를 Model Asset 에 연결
-// - MediaPipe 쪽이 매 프레임 OnFrame(...) 호출
-// - 같은 단어가 안정적으로 나올 때만 '확정'하여 OnWordConfirmed 이벤트 발생
+// 수어 인식기 (3단어 모델, 세그먼트 방식)
+//   - 손이 올라오면 동작 녹화 시작 → 손을 내리면 한 동작 끝 → 그때 인식 1회.
+//   - 동작 전체를 100프레임으로 리샘플(빠르든 느리든 맞춰짐) + 코정규화 + 어깨310 스케일.
+//   - 학습(직접 녹화) 전처리와 100% 동일.
 public class KslRecognizer : MonoBehaviour
 {
-    [Header("모델: ksl_60_joint_best.onnx 를 여기에 연결")]
+    [Header("모델 (3단어 ONNX)")]
     public ModelAsset modelAsset;
 
-    [Header("단어 확정 규칙")]
-    [Tooltip("이 확률(0~1) 이상일 때만 후보로 인정")]
+    [Header("단어 (출력 0,1,2 순서대로)")]
+    public string[] words = { "월요일", "아침", "싫다" };
+
+    [Header("인식 설정")]
+    [Tooltip("이 확률 이상일 때만 확정")]
     public float confidenceThreshold = 0.6f;
-    [Tooltip("같은 단어가 연속 몇 번 나오면 확정할지")]
-    public int confirmFrames = 10;
-    [Tooltip("켜면 매 프레임 예측을 콘솔에 찍어 디버깅에 도움")]
-    public bool verbose = false;
-
-    [Header("스케일 정규화 (학습 좌표 크기에 맞춤)")]
-    [Tooltip("켜면 어깨너비 기준으로 좌표 크기를 학습 스케일에 맞춤. 학습은 코 기준 이동만 보정하고 크기는 안 맞춰서, 이걸로 크기를 맞춰주면 정확도가 올라감")]
-    public bool scaleNormalize = true;
-    [Tooltip("학습 데이터의 어깨너비(픽셀) 목표값. 학습 좌표 x[695,1198] y[144,1032] 기준 추정치. .npy 로 정확값 계산 예정. 인식이 이상하면 이 값을 조절")]
-    public float targetShoulderPx = 250f;
-
-    [Header("게이팅 (연속 헛인식 방지)")]
-    [Tooltip("이 개수(20점 중) 이상 손 관절이 잡혀야 인식 시도. 손 없으면 대기")]
+    [Tooltip("이보다 짧은 동작(프레임)은 무시")]
+    public int minSegFrames = 12;
+    [Tooltip("손 관절(20점 중) 이 개수 이상이면 '손 있음'")]
     public int minHandPoints = 6;
-    [Tooltip("단어 확정 후, 손을 한 번 내려야(손 점 < minHandPoints) 다음 단어를 받음 → 동작 사이 끊김 생성")]
-    public bool requireReleaseBetweenWords = true;
+    public bool scaleNormalize = true;
+    public float targetShoulderPx = 310f;
+    public bool verbose = true;
 
-    // 단어가 확정될 때 호출 (UI 등에서 구독). 인자: (클래스번호, 단어, 확률)
     public event Action<int, string, float> OnWordConfirmed;
-
-    // 인식 상태 (UI 점/글씨 표시용)
-    public enum RecogState { Detecting, Uncertain, Confirmed }   // 감지중 / 미인식(?) / 확정
-    // 매 추론마다 현재 상태 알림. 인자: (상태, 최상위 단어, 확률)
+    public enum RecogState { Detecting, Uncertain, Confirmed }
     public event Action<RecogState, string, float> OnStateChanged;
 
-    const int C = 3;     // 채널: x, y, confidence
-    const int T = 100;   // 프레임 수 (고정)
-    const int V = 27;    // 관절 수
-    const int NOSE = 0;  // 코 = 0번 관절 (정규화 기준점)
-    const int L_SH = 1;  // 왼어깨 = 1번 (어깨너비 측정용)
-    const int R_SH = 2;  // 오른어깨 = 2번
-
-    // 0~59번 클래스 → 한국어 단어 (class_mapping.json 기준, 순서 고정)
-    static readonly string[] Words =
-    {
-        "고민", "슬프다", "교실", "일요일", "금요일", "수요일", "어떻게", "월요일",
-        "화요일", "얼마", "좋다", "가다", "쓰다", "모르다", "원하다", "잘하다",
-        "마지막", "듣다", "오다", "아프다", "피곤하다", "맞다", "의자", "알다",
-        "죄송", "친구", "이해", "어렵다", "친하다", "쉽다", "화나다", "놀라다",
-        "후회", "못하다", "싫다", "감사", "시원하다", "기억", "검정", "빨강",
-        "노랑", "초록", "파랑", "잘못하다", "왼쪽", "오른쪽", "간단하다", "틀리다",
-        "괜찮다", "따뜻하다", "엄마", "시작", "부탁", "재미없다", "조용하다", "위",
-        "받다", "깜빡하다", "주다", "아래",
-    };
+    const int V = 27;   // 관절
+    const int C = 3;    // x,y,conf
+    const int T = 100;  // 고정 프레임
+    const int NOSE = 0, L_SH = 1, R_SH = 2;
 
     Model model;
     Worker worker;
-    readonly Queue<float[]> frames = new Queue<float[]>();
-
-    // 확정 규칙 상태
-    int _candidateClass = -1;   // 현재 후보 단어
-    int _streak = 0;            // 후보가 연속으로 나온 횟수
-    int _lastConfirmed = -1;    // 마지막으로 확정한 단어 (중복 확정 방지)
-    bool _justConfirmed = false; // 이번 추론에서 막 확정됐는지 (상태 표시용)
-    bool _awaitingRelease = false; // 확정 후, 손을 내려야 다음 단어 인식 (게이팅)
+    readonly List<float[]> _seg = new List<float[]>();
+    bool _recording = false;
 
     void Start()
     {
         model = ModelLoader.Load(modelAsset);
-        worker = new Worker(model, BackendType.GPUCompute);  // 미지원 플랫폼이면 BackendType.CPU
+        worker = new Worker(model, BackendType.GPUCompute);  // 안 되면 BackendType.CPU
     }
 
-    // MediaPipe 쪽이 매 프레임 호출. jointsXYZ: 길이 81 = 27관절 × (x_픽셀, y_픽셀, conf)
-    public void OnFrame(float[] jointsXYZ)
+    void OnDestroy() { worker?.Dispose(); }
+
+    // bridge가 매 프레임 27관절(81=27*3) 전달
+    public void OnFrame(float[] frame)
     {
-        if (jointsXYZ == null || jointsXYZ.Length != V * C)
+        if (frame == null) return;
+
+        int handPts = 0;
+        for (int v = 7; v < V; v++) if (frame[v * C + 2] > 0.5f) handPts++;
+        bool hands = handPts >= minHandPoints;
+
+        if (hands)
         {
-            Debug.LogError($"[KSL] 관절 데이터 길이 오류: {(jointsXYZ?.Length ?? 0)} (기대값 {V * C})");
-            return;
+            _recording = true;
+            _seg.Add((float[])frame.Clone());
+            OnStateChanged?.Invoke(RecogState.Detecting, "", 0f);   // 동작 중(회색)
         }
-
-        frames.Enqueue((float[])jointsXYZ.Clone());
-        if (frames.Count > T) frames.Dequeue();
-        if (frames.Count == T) RunInference();
+        else if (_recording)            // 손 내림 → 한 동작 끝
+        {
+            _recording = false;
+            if (_seg.Count >= minSegFrames) Recognize();
+            _seg.Clear();
+        }
     }
 
-    void RunInference()
+    void Recognize()
     {
-        float[][] buf = frames.ToArray();
+        int n = _seg.Count;
 
-        // 1) 코 기준 정규화 (x,y의 코 시간평균을 뺌)
-        float noseMeanX = 0f, noseMeanY = 0f;
+        // 1) 100프레임으로 linspace 리샘플 (속도 무관)
+        float[][] rs = new float[T][];
         for (int t = 0; t < T; t++)
         {
-            noseMeanX += buf[t][NOSE * C + 0];
-            noseMeanY += buf[t][NOSE * C + 1];
+            int idx = Mathf.RoundToInt((float)t * (n - 1) / (T - 1));
+            if (idx < 0) idx = 0; if (idx > n - 1) idx = n - 1;
+            rs[t] = _seg[idx];
         }
-        noseMeanX /= T;
-        noseMeanY /= T;
 
-        // 1b) 어깨너비 기준 스케일 (학습 좌표 크기에 맞춤)
+        // 2) 코 시간평균
+        float noseX = 0f, noseY = 0f;
+        for (int t = 0; t < T; t++) { noseX += rs[t][NOSE * C + 0]; noseY += rs[t][NOSE * C + 1]; }
+        noseX /= T; noseY /= T;
+
+        // 3) 어깨너비 → 310 스케일
         float scale = 1f;
         if (scaleNormalize)
         {
-            float sumSh = 0f; int cntSh = 0;
+            float sum = 0f; int cnt = 0;
             for (int t = 0; t < T; t++)
-            {
-                if (buf[t][L_SH * C + 2] > 0.5f && buf[t][R_SH * C + 2] > 0.5f)
+                if (rs[t][L_SH * C + 2] > 0.5f && rs[t][R_SH * C + 2] > 0.5f)
                 {
-                    float dx = buf[t][L_SH * C + 0] - buf[t][R_SH * C + 0];
-                    float dy = buf[t][L_SH * C + 1] - buf[t][R_SH * C + 1];
-                    sumSh += Mathf.Sqrt(dx * dx + dy * dy);
-                    cntSh++;
+                    float dx = rs[t][L_SH * C + 0] - rs[t][R_SH * C + 0];
+                    float dy = rs[t][L_SH * C + 1] - rs[t][R_SH * C + 1];
+                    sum += Mathf.Sqrt(dx * dx + dy * dy); cnt++;
                 }
-            }
-            if (cntSh > 0)
-            {
-                float meanSh = sumSh / cntSh;
-                if (meanSh > 1f) scale = targetShoulderPx / meanSh;   // 어깨너비를 목표값으로 맞춤
-            }
+            if (cnt > 0) { float sh = sum / cnt; if (sh > 1f) scale = targetShoulderPx / sh; }
         }
 
-        // 2) [1, C, T, V, 1] 텐서.  코 기준 이동 + 스케일 보정.  위치 = (c*T + t)*V + v
+        // 4) 텐서 [1,3,100,27,1].  위치 = (c*T + t)*V + v
         float[] data = new float[C * T * V];
         for (int t = 0; t < T; t++)
-        {
             for (int v = 0; v < V; v++)
             {
-                data[(0 * T + t) * V + v] = (buf[t][v * C + 0] - noseMeanX) * scale;
-                data[(1 * T + t) * V + v] = (buf[t][v * C + 1] - noseMeanY) * scale;
-                data[(2 * T + t) * V + v] = buf[t][v * C + 2];   // conf 그대로
+                data[(0 * T + t) * V + v] = (rs[t][v * C + 0] - noseX) * scale;
+                data[(1 * T + t) * V + v] = (rs[t][v * C + 1] - noseY) * scale;
+                data[(2 * T + t) * V + v] = rs[t][v * C + 2];
             }
-        }
 
-        // 3) 추론
+        // 5) 추론
         using var input = new Tensor<float>(new TensorShape(1, C, T, V, 1), data);
         worker.Schedule(input);
-        using var logits = (worker.PeekOutput() as Tensor<float>).ReadbackAndClone();
-        float[] scores = logits.DownloadToArray();
+        using var outT = (worker.PeekOutput() as Tensor<float>).ReadbackAndClone();
+        float[] scores = outT.DownloadToArray();
 
-        // 4) softmax → 확률, 최상위 단어
         float[] probs = Softmax(scores);
         int cls = ArgMax(probs);
         float p = probs[cls];
 
-        // 4b) 손 존재 개수 (게이팅용) — 최신 프레임의 양손 20점 중
-        int handPts = 0;
-        for (int v = 7; v < V; v++)
-            if (buf[T - 1][v * C + 2] > 0.5f) handPts++;
-        bool handsPresent = handPts >= minHandPoints;
-
         if (verbose)
-            Debug.Log($"[KSL] cls={cls} p={p:F2} streak={_streak} hands={handPts}/20 scale={scale:F2}");
+            Debug.Log($"[KSL] seg={n} cls={cls}({Word(cls)}) p={p:F2} scale={scale:F2}");
 
-        // 5) 게이팅 + 단어 확정
-        _justConfirmed = false;
-        RecogState state;
-        if (!handsPresent)
-        {
-            // 손 없음/내림 → 대기. 후보 리셋 + 다음 단어 받을 준비(release).
-            _candidateClass = -1;
-            _streak = 0;
-            _awaitingRelease = false;
-            _lastConfirmed = -1;            // 손 내렸으니 같은 단어도 다시 인식 가능
-            state = RecogState.Detecting;   // 감지중(회색)
-        }
-        else
-        {
-            ApplyConfirmRule(cls, p);
-            if (_justConfirmed) state = RecogState.Confirmed;   // 확정(초록)
-            else if (_awaitingRelease) state = RecogState.Detecting;   // 확정 후 손 내리기 대기
-            else if (p >= confidenceThreshold) state = RecogState.Uncertain;   // 미인식(?)(주황)
-            else state = RecogState.Detecting;   // 감지중(회색)
-        }
-        OnStateChanged?.Invoke(state, Word(cls), p);
-    }
-
-    void ApplyConfirmRule(int cls, float p)
-    {
         if (p >= confidenceThreshold)
         {
-            // 같은 후보면 연속 횟수 증가, 바뀌면 1로 리셋
-            if (cls == _candidateClass) _streak++;
-            else { _candidateClass = cls; _streak = 1; }
-
-            // 확정 후 아직 손을 안 내렸으면(release 대기) 새 확정 보류
-            bool blocked = requireReleaseBetweenWords && _awaitingRelease;
-
-            if (_streak >= confirmFrames && !blocked && _candidateClass != _lastConfirmed)
-            {
-                _lastConfirmed = _candidateClass;
-                _awaitingRelease = true;     // 다음 단어는 손을 내린 뒤에
-                _justConfirmed = true;
-                string word = Word(_candidateClass);
-                Debug.Log($"[KSL] ✅ 확정: {word} (확률 {p:P0})");
-                OnWordConfirmed?.Invoke(_candidateClass, word, p);   // UI 등으로 전달
-            }
+            Debug.Log($"[KSL] ✅ 확정: {Word(cls)} ({p:P0})");
+            OnWordConfirmed?.Invoke(cls, Word(cls), p);
+            OnStateChanged?.Invoke(RecogState.Confirmed, Word(cls), p);
         }
         else
         {
-            // 확신 낮음(동작 전환 등) → 후보 초기화
-            _candidateClass = -1;
-            _streak = 0;
+            OnStateChanged?.Invoke(RecogState.Uncertain, Word(cls), p);  // 애매(주황)
         }
     }
 
-    static float[] Softmax(float[] x)
+    string Word(int c) => (c >= 0 && c < words.Length) ? words[c] : "?";
+
+    static float[] Softmax(float[] z)
     {
-        float max = float.NegativeInfinity;
-        for (int i = 0; i < x.Length; i++) if (x[i] > max) max = x[i];
-        float sum = 0f;
-        float[] o = new float[x.Length];
-        for (int i = 0; i < x.Length; i++) { o[i] = Mathf.Exp(x[i] - max); sum += o[i]; }
-        for (int i = 0; i < x.Length; i++) o[i] /= sum;
-        return o;
+        float mx = z[0]; for (int i = 1; i < z.Length; i++) if (z[i] > mx) mx = z[i];
+        float s = 0f; var e = new float[z.Length];
+        for (int i = 0; i < z.Length; i++) { e[i] = Mathf.Exp(z[i] - mx); s += e[i]; }
+        for (int i = 0; i < z.Length; i++) e[i] /= s;
+        return e;
     }
-
-    int ArgMax(float[] v)
-    {
-        int idx = 0;
-        for (int n = 1; n < v.Length; n++) if (v[n] > v[idx]) idx = n;
-        return idx;
-    }
-
-    string Word(int cls) => (cls >= 0 && cls < Words.Length) ? Words[cls] : $"class {cls}";
-
-    void OnDestroy() => worker?.Dispose();
+    static int ArgMax(float[] z) { int m = 0; for (int i = 1; i < z.Length; i++) if (z[i] > z[m]) m = i; return m; }
 }

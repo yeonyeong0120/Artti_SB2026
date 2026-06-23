@@ -291,9 +291,9 @@ struct U3CU3Ec__DisplayClass4_0_t97AB3CAB9C362E312C4DFC8C892B6296BE15E6F4;
 struct U3CRunU3Ed__4_tCF84D0A2A712952F2644607C36849EC98D90718C;
 struct U3CU3Ec__DisplayClass32_0_t3EC38E79B83CD92DA4DF064B73B8DA26279FFE13;
 struct U3CU3Ec__DisplayClass39_0_t2F9F9E3D2F0D31C7B593D4A09E8E2B199120B005;
-struct U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA;
-struct U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E;
-struct U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08;
+struct U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61;
+struct U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA;
+struct U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32;
 struct Deleter_t096B00C0CA36CE2B4358C25149C6D27E39CCD02A;
 struct ResultCallback_t5F4379ADE793755D78AB60B909476B8A2D9FD21C;
 struct U3CU3Ec__DisplayClass4_0_t5B7F97B8106A937F0D6B7711CD28684BFC487266;
@@ -347,17 +347,18 @@ IL2CPP_EXTERN_C RuntimeClass* ResultCallback_t2229D7821CBE1D58E1929C6B07A63A29E9
 IL2CPP_EXTERN_C RuntimeClass* ResultCallback_t5F4379ADE793755D78AB60B909476B8A2D9FD21C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ResultCallback_tC5E818678781285BC3D2A3CE72048FA4A7017907_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ResultCallback_tFD854EB45167B6C3E7CDEC8681CF99F11A54559E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RotationAngle_t8A2F6F40D52D14A072CBEDAABB817B2FB914D057_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RunningMode_t269D4CD3FFB8B89CB0205CFBFB675C330F135BE6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RunningMode_t460FC447AFF32999F112186D0D57269D2CE441CF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CRunU3Ed__4_t12D1EE9A78AD1708C22BAF0175AD3DE4BE5EF4AC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CRunU3Ed__4_t27ADA7862CE692B711D1A0DE130FFBC98F166AEE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CRunU3Ed__4_tCF84D0A2A712952F2644607C36849EC98D90718C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CRunU3Ed__4_tDD78038394527301EDA5E06BBB3FC7901F4E7D7D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass32_0_t3EC38E79B83CD92DA4DF064B73B8DA26279FFE13_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass39_0_t2F9F9E3D2F0D31C7B593D4A09E8E2B199120B005_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass4_0_t55EE0D0AA62FA21DA2BF7468B59775F86F03F9F7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass4_0_t5B7F97B8106A937F0D6B7711CD28684BFC487266_il2cpp_TypeInfo_var;
@@ -388,6 +389,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral519FB5CDE69C25D2AC3D3BF9B49553DE5C46EE42
 IL2CPP_EXTERN_C String_t* _stringLiteral5311DB6DE034CAAC2A56B653DFC549A983DA0AA1;
 IL2CPP_EXTERN_C String_t* _stringLiteral56F8A49A8E0B4BA8BC94070D0D9DB2DBDF35AB39;
 IL2CPP_EXTERN_C String_t* _stringLiteral5F6BE7C18FBAD529496AFF0B52035298EE975A1B;
+IL2CPP_EXTERN_C String_t* _stringLiteral62BEF2A3000982EE3C5C9AFE8E469EA2128B0DCE;
 IL2CPP_EXTERN_C String_t* _stringLiteral68D4C05B1CDAEBF47CEC630826BCF0C8BBAC9AE6;
 IL2CPP_EXTERN_C String_t* _stringLiteral741ECF9F27EF5C5624AECB6AD4833AA3438D6FC1;
 IL2CPP_EXTERN_C String_t* _stringLiteral7FE8F0EF275B1485F395583C0FDAABC5C5A5A7EB;
@@ -485,7 +487,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* PacketGetterExtension_Get_TisLandmarkList_t
 IL2CPP_EXTERN_C const RuntimeMethod* PacketGetterExtension_Get_TisNormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_mE07F02E5BE26B33269D3C05BAE1CF3CA48D11C93_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PacketGetterExtension_Get_TisNormalizedRect_t3AEBF250D7F89F9F37B4F04D06BA6C255DB276A1_m50CC70599A8B7BD57E554F4559317B4C67D20990_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_mAF7D5CA603BD9E5FDABECD2D68A319311152EDC0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__35_System_Collections_IEnumerator_Reset_mCAF8C6019BB8C38D68A5039ED8665B8C72763A3E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__37_System_Collections_IEnumerator_Reset_m6484A37CC5C2881FACD0C43696401E1ED196F5E2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__4_MoveNext_m12EF375975BBB8DE8246286FA4505B1550A0D3B7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__4_MoveNext_mAA5A4713F29056C279AFAFD13A1AB05027F10646_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__4_MoveNext_mCB6A767880B8DB7C43682800A32CDC32B2563EF6_RuntimeMethod_var;
@@ -496,9 +498,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__4_System_Collections_IEnumerato
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRunU3Ed__4_System_Collections_IEnumerator_Reset_m9660491E262F9506DC10755DC7B9530742FE16E8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass32_0_U3CInitializeModelComplexityU3Eb__0_mE25B34A74CC28915334E3909C922CE5EEFFE978A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass32_0_U3CInitializeModelComplexityU3Eb__1_mF23B2DE63D78E0952FFC3658318931DEBA3A09AC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass35_0_U3CRunU3Eb__0_mE29A9B675D8DF68D368520834DD28550B4785922_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass35_0_U3CRunU3Eb__1_m6A3FBD5A271CE2B3672B28FAA0BE6295ED97EF4F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass35_1_U3CRunU3Eb__2_m654B060275A751C55CF66180202648166856B265_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass37_0_U3CRunU3Eb__0_mAAE7B81928AA785BDC7DBB832313DCF04952EE7F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass37_0_U3CRunU3Eb__1_m7DF329EE622137BE90B25EE5C10DDF313A8A64E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass37_1_U3CRunU3Eb__2_m914FAF83658347A0A110130FBDD17050077AE311_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass39_0_U3CInitializeRunningModeU3Eb__0_mED6CC7249896F20CD63CF29931F33F077E9E20CD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass39_0_U3CInitializeRunningModeU3Eb__1_mF8B33528A17C78C04076FF251AC2D7D2070D6CF4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass4_0_U3CRunU3Eb__0_m69539DCD40BA5F3338D4F44AD9BE91D043A9432C_RuntimeMethod_var;
@@ -660,7 +662,7 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinv
 struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
 };
-struct U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E  : public RuntimeObject
+struct U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA  : public RuntimeObject
 {
 	Task_1_t5623BD18B97B169122EAF499256CBD6BCC70FF9D* ___task;
 };
@@ -1192,19 +1194,19 @@ struct ModelComplexity_tCD56C420C9BCBDCC31FB51ECE070077185E43EA4
 {
 	int32_t ___value__;
 };
-struct U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08  : public RuntimeObject
+struct U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* ___U3CU3E4__this;
-	U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* ___U3CU3E8__1;
+	U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* ___U3CU3E8__1;
 	WaitForResult_t9CE697FF497DB41D10D0851A3F6F83E987643A21* ___U3CgraphInitRequestU3E5__2;
 	ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* ___U3CimageSourceU3E5__3;
 	WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD* ___U3CwaitUntilReqDoneU3E5__4;
 	bool ___U3CcanUseGpuImageU3E5__5;
 	GlContext_t73D5FC05E5A4B840AE95BC66FD49F606AE1220BD* ___U3CglContextU3E5__6;
 	TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* ___U3CtextureFrameU3E5__7;
-	U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E* ___U3CU3E8__8;
+	U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA* ___U3CU3E8__8;
 	HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B ___U3CresultU3E5__9;
 };
 struct CharacterValidation_t5DAA94F9780B40CCF419821363E89B30E2EF7380 
@@ -1527,7 +1529,7 @@ struct U3CU3Ec__DisplayClass39_0_t2F9F9E3D2F0D31C7B593D4A09E8E2B199120B005  : pu
 	int32_t ___currentRunningMode;
 	HolisticTrackingConfig_t98102BC6489EE5360954EEC1B98E1F6FE8D063CD* ___U3CU3E4__this;
 };
-struct U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA  : public RuntimeObject
+struct U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61  : public RuntimeObject
 {
 	AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 ___req;
 	HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* ___U3CU3E4__this;
@@ -2278,6 +2280,8 @@ struct Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_StaticFields
 struct HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_StaticFields
 {
 	Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* ___OnKslLandmarks;
+	int32_t ___KslImgW;
+	int32_t ___KslImgH;
 };
 struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields
 {
@@ -2397,7 +2401,7 @@ inline void LegacySolutionRunner_1_Stop_m73E2B1C44DE42AFD8CCCFAFC6E77012FACDB97A
 	((  void (*) (LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*, const RuntimeMethod*))LegacySolutionRunner_1_Stop_mE75D563E47B641FD3C41272014A0DCB0C65EDFCA_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureFramePool_Dispose_m7F411F4322FBE5DD6B5E7A94D92A05C9A243BB92 (TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__35__ctor_mFF30847E405BE5082B824312A0B3D549437FF084 (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__37__ctor_m5874025E480AAB123239A143158E010CFAB56637 (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MessageParser_1_t8C63ABBACE4921941288ACE98891E5AA2668DBF4* Detection_get_Parser_m2859EA7DB3044CEF47BCA4A006AE9B44CF471449 (const RuntimeMethod* method) ;
 inline Detection_t859492E99C64086E47D1E0D68BB250445B91F096* PacketGetterExtension_Get_TisDetection_t859492E99C64086E47D1E0D68BB250445B91F096_m9662F2F6807714F6741E892C714CDA5F905A07B3 (Packet_1_t8DFE87A9FF3D8B668732F8357B6849181F816A98* ___0_packet, MessageParser_1_t8C63ABBACE4921941288ACE98891E5AA2668DBF4* ___1_parser, const RuntimeMethod* method)
 {
@@ -2439,13 +2443,15 @@ inline void LegacySolutionRunner_1__ctor_mE5180BBCF39E988C0856EB9023CE1ED53BCAD8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AsyncGPUReadbackRequest_get_done_mC042016E5BE850F18995831CBB4F06655914798C (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__35_U3CU3Em__Finally1_mFE192761CF16236111D9F66597F82CEA1E44BBC3 (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__35_System_IDisposable_Dispose_m211112F002D5DD7E639601F92F40D9EAAA3EDA44 (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_m7D717A457432AD00DA56DF9075A1AFBAA1284BA7 (U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__37_U3CU3Em__Finally1_m6FFB6EDBE69AEEF698BA3FA28CACFDF56A9DAF6B (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__37_System_IDisposable_Dispose_m581E5F255F06F4F7C782D4B64D1F2CAEBAC5E02C (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_m24B2AED1D29D4C05E652EF45378B65F7D10434E8 (U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WaitForResult_t9CE697FF497DB41D10D0851A3F6F83E987643A21* GraphRunner_WaitForInit_m83507D12671A3048F0A785A72A07961C7D2CCE0F (GraphRunner_t6060480A1A0BC13CB8D0EA80CB23576D99DB3D02* __this, int32_t ___0_runningMode, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* ImageSourceProvider_get_ImageSource_m078FAA4E62C0E80D1A5B57CF29C9B1E0393A5FAC_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureFramePool__ctor_mCC8D9AC94E28FE9820401540E5F6653B106B13B4 (TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F* __this, int32_t ___0_textureWidth, int32_t ___1_textureHeight, int32_t ___2_textureFormat, int32_t ___3_poolSize, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_Initialize_mE1CADE405267647ECE3B1DB0413C1B7FDFCE70D1 (Screen_t19E25F9F23695BFE719F4547CDCEB545C94AA221* __this, ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* ___0_imageSource, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RotationAngleExtension_Reverse_m050A98E889CC1FA531C6761F04286ADE63FBB7C4 (int32_t ___0_rotationAngle, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RotationAngleExtension_GetEulerAngles_m3CFF726449F073A3D7997091A90E4D2D437F31DC (int32_t ___0_rotationAngle, const RuntimeMethod* method) ;
@@ -2517,7 +2523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AsyncGPUReadbackRequest_get_hasError_m374BB20A32B9DCDBFD8F81BBE542847B82F04EE5 (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingGraph_AddTextureFrameToInputStream_m3DCFE45A9F8B96335D1A0C42C69D668E4DDF6B0B (HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* __this, TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* ___0_textureFrame, GlContext_t73D5FC05E5A4B840AE95BC66FD49F606AE1220BD* ___1_glContext, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_1__ctor_m40BDEAC2847FB4E8E69A2CA4D20F6269457912BE (U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_1__ctor_m7D28C4B19E88AC227A1070C23D62ECF101D374A1 (U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_ReadSync_mD58A96E8F13D2D1438505286F8B8209475A064A4 (Screen_t19E25F9F23695BFE719F4547CDCEB545C94AA221* __this, TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* ___0_textureFrame, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t5623BD18B97B169122EAF499256CBD6BCC70FF9D* HolisticTrackingGraph_WaitNextAsync_mB47354D640F13D482AA8DD459873D86F99DBF9A9 (HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* __this, const RuntimeMethod* method) ;
 inline HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B Task_1_get_Result_mAF7D5CA603BD9E5FDABECD2D68A319311152EDC0 (Task_1_t5623BD18B97B169122EAF499256CBD6BCC70FF9D* __this, const RuntimeMethod* method)
@@ -2689,7 +2695,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__4_U3CU3Em__Finally1_mC22B163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__4_System_IDisposable_Dispose_m1FF93EE5117606C1C6F47D4F09502B540B91D0BE (U3CRunU3Ed__4_tDD78038394527301EDA5E06BBB3FC7901F4E7D7D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m0AF217E74DAF520403763AE0B37DDC86F825D37A (U3CU3Ec__DisplayClass4_0_t5B7F97B8106A937F0D6B7711CD28684BFC487266* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ImageSegmentationConfig_get_ImageReadMode_mFC330230CA600DA9F0434D25E0D370802FE60995_inline (ImageSegmentationConfig_t880F4E8D2CC614E2E44143174B041618F58E0E0C* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ImageSegmentationConfig_get_ModelName_mC94C4EE4AE53607066556A9BBB6AFD9B1D846121 (ImageSegmentationConfig_t880F4E8D2CC614E2E44143174B041618F58E0E0C* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
@@ -3052,7 +3057,7 @@ IL_0006:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HolisticTrackingSolution_get_modelComplexity_m1E6FD4478BF4CE1CE786C7211EB96B84DE39AA95 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:30>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:33>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___modelComplexity;
@@ -3063,7 +3068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HolisticTrackingSolution_get_modelCom
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_modelComplexity_m4CBCC3B21E9BB8A83EACBCEC38AB15504456E6ED (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:31>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:34>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		int32_t L_1 = ___0_value;
 		NullCheck(L_0);
@@ -3075,7 +3080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_modelComple
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HolisticTrackingSolution_get_smoothLandmarks_m48127C2E39439106C8F064C6C73702C08BBE7191 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:36>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:39>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		NullCheck(L_0);
 		bool L_1 = L_0->___smoothLandmarks;
@@ -3086,7 +3091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HolisticTrackingSolution_get_smoothLandm
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_smoothLandmarks_mA7D6515ECD4C02E475367E429338CB0DE178FBC1 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:37>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:40>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		bool L_1 = ___0_value;
 		NullCheck(L_0);
@@ -3098,7 +3103,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_smoothLandm
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HolisticTrackingSolution_get_refineFaceLandmarks_m235E5B0134AC012B03B09FB201CE24337F83F30A (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:42>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:45>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		NullCheck(L_0);
 		bool L_1 = L_0->___refineFaceLandmarks;
@@ -3109,7 +3114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HolisticTrackingSolution_get_refineFaceL
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_refineFaceLandmarks_mD9809E78E25ECE33023F48DB30A0194C78FD6889 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:43>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:46>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		bool L_1 = ___0_value;
 		NullCheck(L_0);
@@ -3121,7 +3126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_refineFaceL
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HolisticTrackingSolution_get_enableSegmentation_mBFD943F851230FCF3ADF8F382AAC20351540BC7A (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:48>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:51>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		NullCheck(L_0);
 		bool L_1 = L_0->___enableSegmentation;
@@ -3132,7 +3137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HolisticTrackingSolution_get_enableSegme
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_enableSegmentation_m6AE190436319C734038C65886E21A6E376D83BD7 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:49>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:52>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		bool L_1 = ___0_value;
 		NullCheck(L_0);
@@ -3144,7 +3149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_enableSegme
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HolisticTrackingSolution_get_smoothSegmentation_m08569EF06A5F6C30157D132E4DABC7FA4BEE0AC3 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:54>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:57>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		NullCheck(L_0);
 		bool L_1 = L_0->___smoothSegmentation;
@@ -3155,7 +3160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HolisticTrackingSolution_get_smoothSegme
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_smoothSegmentation_m6903D7D1BB1B4C6902FD0F283EF2EDE5E9269492 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:55>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:58>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		bool L_1 = ___0_value;
 		NullCheck(L_0);
@@ -3167,7 +3172,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_smoothSegme
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float HolisticTrackingSolution_get_minDetectionConfidence_m29E3509A29564C60AC6C1E0D1E70664B4897291D (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:60>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:63>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		NullCheck(L_0);
 		float L_1;
@@ -3179,7 +3184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float HolisticTrackingSolution_get_minDetecti
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_minDetectionConfidence_mF018F29C59B43E606B626461703C58FB88142129 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:61>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:64>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		float L_1 = ___0_value;
 		NullCheck(L_0);
@@ -3191,7 +3196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_minDetectio
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float HolisticTrackingSolution_get_minTrackingConfidence_mC8A7270589AB36F4F4E2529D8EEB847DA658E690 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:66>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:69>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		NullCheck(L_0);
 		float L_1;
@@ -3203,7 +3208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float HolisticTrackingSolution_get_minTrackin
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_set_minTrackingConfidence_m067FB0A2AA81F67A9574511CEF041BC0FD506644 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:67>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:70>
 		HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_0 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)__this)->___graphRunner;
 		float L_1 = ___0_value;
 		NullCheck(L_0);
@@ -3223,9 +3228,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_Stop_mBABE5FC9D
 	TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F* G_B2_0 = NULL;
 	TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:72>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:75>
 		LegacySolutionRunner_1_Stop_m73E2B1C44DE42AFD8CCCFAFC6E77012FACDB97A8(__this, LegacySolutionRunner_1_Stop_m73E2B1C44DE42AFD8CCCFAFC6E77012FACDB97A8_RuntimeMethod_var);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:73>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:76>
 		TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F* L_0 = __this->____textureFramePool;
 		TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F* L_1 = L_0;
 		if (L_1)
@@ -3247,10 +3252,10 @@ IL_0014:
 
 IL_001a:
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:74>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:77>
 		__this->____textureFramePool = (TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____textureFramePool), (void*)(TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F*)NULL);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:75>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:78>
 		return;
 	}
 }
@@ -3260,13 +3265,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* HolisticTrackingSolution_Run_m
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* L_0 = (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08*)il2cpp_codegen_object_new(U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08_il2cpp_TypeInfo_var);
-		U3CRunU3Ed__35__ctor_mFF30847E405BE5082B824312A0B3D549437FF084(L_0, 0, NULL);
-		U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* L_1 = L_0;
+		U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* L_0 = (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32*)il2cpp_codegen_object_new(U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32_il2cpp_TypeInfo_var);
+		U3CRunU3Ed__37__ctor_m5874025E480AAB123239A143158E010CFAB56637(L_0, 0, NULL);
+		U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
@@ -3287,11 +3292,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_OnPoseDetection
 	Detection_t859492E99C64086E47D1E0D68BB250445B91F096* V_1 = NULL;
 	Detection_t859492E99C64086E47D1E0D68BB250445B91F096* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:189>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:197>
 		OutputEventArgs_t76152E4066020D67B100E2F164BA12A0E09C682F L_0 = ___1_eventArgs;
 		Packet_1_t8DFE87A9FF3D8B668732F8357B6849181F816A98* L_1 = L_0.___packet;
 		V_0 = L_1;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:190>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:198>
 		Packet_1_t8DFE87A9FF3D8B668732F8357B6849181F816A98* L_2 = V_0;
 		if (!L_2)
 		{
@@ -3317,12 +3322,12 @@ IL_0018:
 IL_0019:
 	{
 		V_1 = G_B3_0;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:191>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:199>
 		DetectionAnnotationController_t71917589B7A6128C4C1EE016E74D0F21BBE4CA96* L_6 = __this->____poseDetectionAnnotationController;
 		Detection_t859492E99C64086E47D1E0D68BB250445B91F096* L_7 = V_1;
 		NullCheck(L_6);
 		DetectionAnnotationController_DrawLater_mAEF9AC19B54B678C2695429EEC802E513CE96BCC(L_6, L_7, NULL);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:192>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:200>
 		return;
 	}
 }
@@ -3340,11 +3345,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_OnFaceLandmarks
 	NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* V_1 = NULL;
 	NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:196>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:204>
 		OutputEventArgs_t99726FA0230BC2D5C2DFB00CA4B3538AD3E74009 L_0 = ___1_eventArgs;
 		Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* L_1 = L_0.___packet;
 		V_0 = L_1;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:197>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:205>
 		Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* L_2 = V_0;
 		if (!L_2)
 		{
@@ -3370,12 +3375,12 @@ IL_0018:
 IL_0019:
 	{
 		V_1 = G_B3_0;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:198>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:206>
 		HolisticLandmarkListAnnotationController_tF9BA1E4B1E861DE7D7184611DE16E743DA498D92* L_6 = __this->____holisticAnnotationController;
 		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_7 = V_1;
 		NullCheck(L_6);
 		HolisticLandmarkListAnnotationController_DrawFaceLandmarkListLater_mD76828AFE66FD12490D1BE3D38E93E9C28A78046(L_6, L_7, NULL);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:199>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:207>
 		return;
 	}
 }
@@ -3396,11 +3401,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_OnPoseLandmarks
 	Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* G_B5_0 = NULL;
 	Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* G_B4_0 = NULL;
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:203>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:211>
 		OutputEventArgs_t99726FA0230BC2D5C2DFB00CA4B3538AD3E74009 L_0 = ___1_eventArgs;
 		Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* L_1 = L_0.___packet;
 		V_0 = L_1;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:204>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:212>
 		Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* L_2 = V_0;
 		if (!L_2)
 		{
@@ -3426,16 +3431,16 @@ IL_0018:
 IL_0019:
 	{
 		V_1 = G_B3_0;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:205>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:213>
 		HolisticLandmarkListAnnotationController_tF9BA1E4B1E861DE7D7184611DE16E743DA498D92* L_6 = __this->____holisticAnnotationController;
 		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_7 = V_1;
 		NullCheck(L_6);
 		HolisticLandmarkListAnnotationController_DrawPoseLandmarkListLater_m90A2A736D36090D03F9A6F00AF2764CFFCB8529B(L_6, L_7, NULL);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:206>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:214>
 		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_8 = V_1;
 		__this->____kslPose = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____kslPose), (void*)L_8);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:207>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:215>
 		Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* L_9 = ((HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_StaticFields*)il2cpp_codegen_static_fields_for(HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_il2cpp_TypeInfo_var))->___OnKslLandmarks;
 		Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* L_10 = L_9;
 		if (L_10)
@@ -3460,69 +3465,12 @@ IL_0039:
 
 IL_0051:
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:208>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:216>
 		return;
 	}
 }
 // Method Definition Index: 128432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_OnLeftHandLandmarksOutput_mB3CAA0D866213EDCCD81101B94C6EEC361291AE5 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, RuntimeObject* ___0_stream, OutputEventArgs_t99726FA0230BC2D5C2DFB00CA4B3538AD3E74009 ___1_eventArgs, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketGetterExtension_Get_TisNormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_mE07F02E5BE26B33269D3C05BAE1CF3CA48D11C93_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* V_0 = NULL;
-	NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* V_1 = NULL;
-	NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* G_B3_0 = NULL;
-	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:212>
-		OutputEventArgs_t99726FA0230BC2D5C2DFB00CA4B3538AD3E74009 L_0 = ___1_eventArgs;
-		Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* L_1 = L_0.___packet;
-		V_0 = L_1;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:213>
-		Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* L_3 = V_0;
-		il2cpp_codegen_runtime_class_init_inline(NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_il2cpp_TypeInfo_var);
-		MessageParser_1_tF7FA9CDBC1CDB824D341556E9A12F90BF5A141B2* L_4;
-		L_4 = NormalizedLandmarkList_get_Parser_m35DE32765AAEC4501794E2A952EACCC78053E65F(NULL);
-		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_5;
-		L_5 = PacketGetterExtension_Get_TisNormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_mE07F02E5BE26B33269D3C05BAE1CF3CA48D11C93(L_3, L_4, PacketGetterExtension_Get_TisNormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_mE07F02E5BE26B33269D3C05BAE1CF3CA48D11C93_RuntimeMethod_var);
-		G_B3_0 = L_5;
-		goto IL_0019;
-	}
-
-IL_0018:
-	{
-		G_B3_0 = ((NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE*)(NULL));
-	}
-
-IL_0019:
-	{
-		V_1 = G_B3_0;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:214>
-		HolisticLandmarkListAnnotationController_tF9BA1E4B1E861DE7D7184611DE16E743DA498D92* L_6 = __this->____holisticAnnotationController;
-		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_7 = V_1;
-		NullCheck(L_6);
-		HolisticLandmarkListAnnotationController_DrawLeftHandLandmarkListLater_m90E8D20D55EBAE0DA8EEF58CD787A1C5A8D390B8(L_6, L_7, NULL);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:215>
-		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_8 = V_1;
-		__this->____kslLeft = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____kslLeft), (void*)L_8);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:216>
-		return;
-	}
-}
-// Method Definition Index: 128433
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_OnRightHandLandmarksOutput_m28B064D4A7200421D74DE9D710A2BEC47E8DEF97 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, RuntimeObject* ___0_stream, OutputEventArgs_t99726FA0230BC2D5C2DFB00CA4B3538AD3E74009 ___1_eventArgs, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3569,12 +3517,69 @@ IL_0019:
 		HolisticLandmarkListAnnotationController_tF9BA1E4B1E861DE7D7184611DE16E743DA498D92* L_6 = __this->____holisticAnnotationController;
 		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_7 = V_1;
 		NullCheck(L_6);
-		HolisticLandmarkListAnnotationController_DrawRightHandLandmarkListLater_m4F436E6054E3D3CA6033DD0761E1178211BBC5B4(L_6, L_7, NULL);
+		HolisticLandmarkListAnnotationController_DrawLeftHandLandmarkListLater_m90E8D20D55EBAE0DA8EEF58CD787A1C5A8D390B8(L_6, L_7, NULL);
 		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:223>
+		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_8 = V_1;
+		__this->____kslLeft = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____kslLeft), (void*)L_8);
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:224>
+		return;
+	}
+}
+// Method Definition Index: 128433
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_OnRightHandLandmarksOutput_m28B064D4A7200421D74DE9D710A2BEC47E8DEF97 (HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* __this, RuntimeObject* ___0_stream, OutputEventArgs_t99726FA0230BC2D5C2DFB00CA4B3538AD3E74009 ___1_eventArgs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketGetterExtension_Get_TisNormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_mE07F02E5BE26B33269D3C05BAE1CF3CA48D11C93_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* V_0 = NULL;
+	NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* V_1 = NULL;
+	NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* G_B3_0 = NULL;
+	{
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:228>
+		OutputEventArgs_t99726FA0230BC2D5C2DFB00CA4B3538AD3E74009 L_0 = ___1_eventArgs;
+		Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* L_1 = L_0.___packet;
+		V_0 = L_1;
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:229>
+		Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		Packet_1_t69B7C352BB1B133F994546C2BCF49BF506D7C73C* L_3 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_il2cpp_TypeInfo_var);
+		MessageParser_1_tF7FA9CDBC1CDB824D341556E9A12F90BF5A141B2* L_4;
+		L_4 = NormalizedLandmarkList_get_Parser_m35DE32765AAEC4501794E2A952EACCC78053E65F(NULL);
+		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_5;
+		L_5 = PacketGetterExtension_Get_TisNormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_mE07F02E5BE26B33269D3C05BAE1CF3CA48D11C93(L_3, L_4, PacketGetterExtension_Get_TisNormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE_mE07F02E5BE26B33269D3C05BAE1CF3CA48D11C93_RuntimeMethod_var);
+		G_B3_0 = L_5;
+		goto IL_0019;
+	}
+
+IL_0018:
+	{
+		G_B3_0 = ((NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE*)(NULL));
+	}
+
+IL_0019:
+	{
+		V_1 = G_B3_0;
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:230>
+		HolisticLandmarkListAnnotationController_tF9BA1E4B1E861DE7D7184611DE16E743DA498D92* L_6 = __this->____holisticAnnotationController;
+		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_7 = V_1;
+		NullCheck(L_6);
+		HolisticLandmarkListAnnotationController_DrawRightHandLandmarkListLater_m4F436E6054E3D3CA6033DD0761E1178211BBC5B4(L_6, L_7, NULL);
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:231>
 		NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_8 = V_1;
 		__this->____kslRight = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____kslRight), (void*)L_8);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:224>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:232>
 		return;
 	}
 }
@@ -3592,11 +3597,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_OnPoseWorldLand
 	LandmarkList_tB18051ADB38C41E484D19D9A880381C136A3E338* V_1 = NULL;
 	LandmarkList_tB18051ADB38C41E484D19D9A880381C136A3E338* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:228>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:236>
 		OutputEventArgs_tC3622567A78F22909217792965397667DCC1A08F L_0 = ___1_eventArgs;
 		Packet_1_t46FAAE26E0258DE858FDE359CDCF21C7C0C7B998* L_1 = L_0.___packet;
 		V_0 = L_1;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:229>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:237>
 		Packet_1_t46FAAE26E0258DE858FDE359CDCF21C7C0C7B998* L_2 = V_0;
 		if (!L_2)
 		{
@@ -3622,12 +3627,12 @@ IL_0018:
 IL_0019:
 	{
 		V_1 = G_B3_0;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:230>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:238>
 		PoseWorldLandmarkListAnnotationController_t85B0CEDF76D681992943901E0CFAF1306522BAF9* L_6 = __this->____poseWorldLandmarksAnnotationController;
 		LandmarkList_tB18051ADB38C41E484D19D9A880381C136A3E338* L_7 = V_1;
 		NullCheck(L_6);
 		PoseWorldLandmarkListAnnotationController_DrawLater_m49E23C254487BFFAD55A57C615611A5A7FCC0486(L_6, L_7, NULL);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:231>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:239>
 		return;
 	}
 }
@@ -3638,11 +3643,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_OnSegmentationM
 	ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* V_1 = NULL;
 	ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:235>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:243>
 		OutputEventArgs_t30C9691B6C6D637BF62BD78FF983C496B9729C0C L_0 = ___1_eventArgs;
 		Packet_1_tE14B2E994902FEF12C43E42F23799572642EFA45* L_1 = L_0.___packet;
 		V_0 = L_1;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:236>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:244>
 		Packet_1_tE14B2E994902FEF12C43E42F23799572642EFA45* L_2 = V_0;
 		if (!L_2)
 		{
@@ -3665,12 +3670,12 @@ IL_0013:
 IL_0014:
 	{
 		V_1 = G_B3_0;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:237>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:245>
 		MaskAnnotationController_tBF9A301B8F9A32C41713FD9314605EE4D1B90B99* L_5 = __this->____segmentationMaskAnnotationController;
 		ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* L_6 = V_1;
 		NullCheck(L_5);
 		MaskAnnotationController_DrawLater_mFE857DD06F18F99F55DCD02F209C677BC12E466F(L_5, L_6, NULL);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:238>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:246>
 		ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* L_7 = V_1;
 		if (L_7)
 		{
@@ -3690,7 +3695,7 @@ IL_0027:
 
 IL_002e:
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:239>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:247>
 		return;
 	}
 }
@@ -3708,11 +3713,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution_OnPoseRoiOutput
 	NormalizedRect_t3AEBF250D7F89F9F37B4F04D06BA6C255DB276A1* V_1 = NULL;
 	NormalizedRect_t3AEBF250D7F89F9F37B4F04D06BA6C255DB276A1* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:243>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:251>
 		OutputEventArgs_t8A32B83E5CCD53D996DBD47C2088E1A14F9CB00A L_0 = ___1_eventArgs;
 		Packet_1_t78C5BE4A2B452875C199213B95F736FFC93073C9* L_1 = L_0.___packet;
 		V_0 = L_1;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:244>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:252>
 		Packet_1_t78C5BE4A2B452875C199213B95F736FFC93073C9* L_2 = V_0;
 		if (!L_2)
 		{
@@ -3738,12 +3743,12 @@ IL_0018:
 IL_0019:
 	{
 		V_1 = G_B3_0;
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:245>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:253>
 		NormalizedRectAnnotationController_t7F4135F5C2376FBB75AD0F37892EB3F6968E786F* L_6 = __this->____poseRoiAnnotationController;
 		NormalizedRect_t3AEBF250D7F89F9F37B4F04D06BA6C255DB276A1* L_7 = V_1;
 		NullCheck(L_6);
 		NormalizedRectAnnotationController_DrawLater_m08199D3B16E700DFEB27E4C26AF611798187BC05(L_6, L_7, NULL);
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:246>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:254>
 		return;
 	}
 }
@@ -3770,7 +3775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolisticTrackingSolution__ctor_m61FE785A
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 128438
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_m7D717A457432AD00DA56DF9075A1AFBAA1284BA7 (U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_m24B2AED1D29D4C05E652EF45378B65F7D10434E8 (U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -3778,10 +3783,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_m7D717A4
 	}
 }
 // Method Definition Index: 128439
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_0_U3CRunU3Eb__0_mE29A9B675D8DF68D368520834DD28550B4785922 (U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass37_0_U3CRunU3Eb__0_mAAE7B81928AA785BDC7DBB832313DCF04952EE7F (U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:127>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:135>
 		AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* L_0 = (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7*)(&__this->___req);
 		bool L_1;
 		L_1 = AsyncGPUReadbackRequest_get_done_mC042016E5BE850F18995831CBB4F06655914798C(L_0, NULL);
@@ -3789,10 +3794,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_0_U3CRunU3Eb__0_
 	}
 }
 // Method Definition Index: 128440
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_0_U3CRunU3Eb__1_m6A3FBD5A271CE2B3672B28FAA0BE6295ED97EF4F (U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass37_0_U3CRunU3Eb__1_m7DF329EE622137BE90B25EE5C10DDF313A8A64E9 (U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:137>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:145>
 		HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		bool L_1 = ((BaseRunner_tE5E8A30A727BF0F6FC4E44DF8B71419C414B1ADA*)L_0)->___isPaused;
@@ -3808,7 +3813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_0_U3CRunU3Eb__1_
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 128441
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_1__ctor_m40BDEAC2847FB4E8E69A2CA4D20F6269457912BE (U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_1__ctor_m7D28C4B19E88AC227A1070C23D62ECF101D374A1 (U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -3816,10 +3821,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_1__ctor_m40BDEAC
 	}
 }
 // Method Definition Index: 128442
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_1_U3CRunU3Eb__2_m654B060275A751C55CF66180202648166856B265 (U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass37_1_U3CRunU3Eb__2_m914FAF83658347A0A110130FBDD17050077AE311 (U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:172>
+		//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:180>
 		Task_1_t5623BD18B97B169122EAF499256CBD6BCC70FF9D* L_0 = __this->___task;
 		NullCheck(L_0);
 		bool L_1;
@@ -3836,7 +3841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass35_1_U3CRunU3Eb__2_
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 128443
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__35__ctor_mFF30847E405BE5082B824312A0B3D549437FF084 (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__37__ctor_m5874025E480AAB123239A143158E010CFAB56637 (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -3846,7 +3851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__35__ctor_mFF30847E405BE5082B
 	}
 }
 // Method Definition Index: 128444
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__35_System_IDisposable_Dispose_m211112F002D5DD7E639601F92F40D9EAAA3EDA44 (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__37_System_IDisposable_Dispose_m581E5F255F06F4F7C782D4B64D1F2CAEBAC5E02C (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
@@ -3883,7 +3888,7 @@ IL_0016:
 
 FINALLY_0019:
 			{
-				U3CRunU3Ed__35_U3CU3Em__Finally1_mFE192761CF16236111D9F66597F82CEA1E44BBC3(__this, NULL);
+				U3CRunU3Ed__37_U3CU3Em__Finally1_m6FFB6EDBE69AEEF698BA3FA28CACFDF56A9DAF6B(__this, NULL);
 				return;
 			}
 		});
@@ -3908,7 +3913,7 @@ IL_0022:
 	}
 }
 // Method Definition Index: 128445
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRunU3Ed__35_MoveNext_mA8BFD7773A9029F05B9F02C7EC4AFE562C63FFDF (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRunU3Ed__37_MoveNext_mBF9C0F0CAB2AD7A11D59AB709DFA4BEF9DF17BDA (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3935,17 +3940,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRunU3Ed__35_MoveNext_mA8BFD7773A9029F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LegacySolutionRunner_1_SetupAnnotationController_TisMaskAnnotation_t14D1534997B80728782CF7A380ACECE2ACB2D977_m64FFED94E7B3E92C8D256236B53A4322D5601D94_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LegacySolutionRunner_1_SetupAnnotationController_TisPoseLandmarkListAnnotation_t705A7441E833140DAAE6C4BB9C5CC7ADA5A61A45_m3A142515E6365DB6EE3534998ACF24CA65AF6F71_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LegacySolutionRunner_1_SetupAnnotationController_TisRectangleAnnotation_t622152C5AA0708E43726B5D9D208D93776379A23_mF582B94168B5D51729294272863FFA9F683E9029_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RotationAngle_t8A2F6F40D52D14A072CBEDAABB817B2FB914D057_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_mAF7D5CA603BD9E5FDABECD2D68A319311152EDC0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_0_U3CRunU3Eb__0_mE29A9B675D8DF68D368520834DD28550B4785922_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_0_U3CRunU3Eb__1_m6A3FBD5A271CE2B3672B28FAA0BE6295ED97EF4F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_1_U3CRunU3Eb__2_m654B060275A751C55CF66180202648166856B265_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_0_U3CRunU3Eb__0_mAAE7B81928AA785BDC7DBB832313DCF04952EE7F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_0_U3CRunU3Eb__1_m7DF329EE622137BE90B25EE5C10DDF313A8A64E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_1_U3CRunU3Eb__2_m914FAF83658347A0A110130FBDD17050077AE311_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral081FEFF96BA51B958061A36D2C85C723FD3CA338);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral62BEF2A3000982EE3C5C9AFE8E469EA2128B0DCE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral92E775F015A80F155E5E809D648BC43CD58501C7);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -3961,18 +3968,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRunU3Ed__35_MoveNext_mA8BFD7773A9029F
 	bool V_9 = false;
 	bool V_10 = false;
 	bool V_11 = false;
-	U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* G_B22_0 = NULL;
-	U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* G_B21_0 = NULL;
+	U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* G_B22_0 = NULL;
+	U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* G_B21_0 = NULL;
 	int32_t G_B23_0 = 0;
-	U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* G_B23_1 = NULL;
-	U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* G_B25_0 = NULL;
-	U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* G_B24_0 = NULL;
+	U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* G_B23_1 = NULL;
+	U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* G_B25_0 = NULL;
+	U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* G_B24_0 = NULL;
 	GlContext_t73D5FC05E5A4B840AE95BC66FD49F606AE1220BD* G_B26_0 = NULL;
-	U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* G_B26_1 = NULL;
+	U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* G_B26_1 = NULL;
 	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* G_B30_0 = NULL;
-	U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* G_B30_1 = NULL;
+	U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* G_B30_1 = NULL;
 	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* G_B29_0 = NULL;
-	U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* G_B29_1 = NULL;
+	U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* G_B29_1 = NULL;
 	Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* G_B47_0 = NULL;
 	Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* G_B46_0 = NULL;
 	ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* G_B50_0 = NULL;
@@ -3981,9 +3988,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRunU3Ed__35_MoveNext_mA8BFD7773A9029F
 		auto __finallyBlock = il2cpp::utils::Fault([&]
 		{
 
-FAULT_076d:
+FAULT_07c1:
 			{
-				U3CRunU3Ed__35_System_IDisposable_Dispose_m211112F002D5DD7E639601F92F40D9EAAA3EDA44(__this, NULL);
+				U3CRunU3Ed__37_System_IDisposable_Dispose_m581E5F255F06F4F7C782D4B64D1F2CAEBAC5E02C(__this, NULL);
 				return;
 			}
 		});
@@ -4049,58 +4056,58 @@ IL_0035_1:
 
 IL_003a_1:
 			{
-				goto IL_017f_1;
+				goto IL_01d3_1;
 			}
 
 IL_003f_1:
 			{
-				goto IL_0462_1;
+				goto IL_04b6_1;
 			}
 
 IL_0044_1:
 			{
-				goto IL_04a4_1;
+				goto IL_04f8_1;
 			}
 
 IL_0049_1:
 			{
-				goto IL_04d7_1;
+				goto IL_052b_1;
 			}
 
 IL_004e_1:
 			{
-				goto IL_0546_1;
+				goto IL_059a_1;
 			}
 
 IL_0053_1:
 			{
-				goto IL_0589_1;
+				goto IL_05dd_1;
 			}
 
 IL_0058_1:
 			{
-				goto IL_0635_1;
+				goto IL_0689_1;
 			}
 
 IL_005d_1:
 			{
 				V_0 = (bool)0;
-				goto IL_0775;
+				goto IL_07c9;
 			}
 
 IL_0064_1:
 			{
 				__this->___U3CU3E1__state = (-1);
-				U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* L_2 = (U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA_il2cpp_TypeInfo_var);
-				U3CU3Ec__DisplayClass35_0__ctor_m7D717A457432AD00DA56DF9075A1AFBAA1284BA7(L_2, NULL);
+				U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* L_2 = (U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61_il2cpp_TypeInfo_var);
+				U3CU3Ec__DisplayClass37_0__ctor_m24B2AED1D29D4C05E652EF45378B65F7D10434E8(L_2, NULL);
 				__this->___U3CU3E8__1 = L_2;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)L_2);
-				U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* L_3 = __this->___U3CU3E8__1;
+				U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* L_3 = __this->___U3CU3E8__1;
 				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_4 = __this->___U3CU3E4__this;
 				NullCheck(L_3);
 				L_3->___U3CU3E4__this = L_4;
 				Il2CppCodeGenWriteBarrier((void**)(&L_3->___U3CU3E4__this), (void*)L_4);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:79>
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:82>
 				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_5 = __this->___U3CU3E4__this;
 				NullCheck(L_5);
 				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_6 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_5)->___graphRunner;
@@ -4112,12 +4119,12 @@ IL_0064_1:
 				L_9 = GraphRunner_WaitForInit_m83507D12671A3048F0A785A72A07961C7D2CCE0F(L_6, L_8, NULL);
 				__this->___U3CgraphInitRequestU3E5__2 = L_9;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CgraphInitRequestU3E5__2), (void*)L_9);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:80>
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:83>
 				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_10;
 				L_10 = ImageSourceProvider_get_ImageSource_m078FAA4E62C0E80D1A5B57CF29C9B1E0393A5FAC_inline(NULL);
 				__this->___U3CimageSourceU3E5__3 = L_10;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CimageSourceU3E5__3), (void*)L_10);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:82>
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:85>
 				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_11 = __this->___U3CimageSourceU3E5__3;
 				NullCheck(L_11);
 				RuntimeObject* L_12;
@@ -4126,13 +4133,13 @@ IL_0064_1:
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_12);
 				__this->___U3CU3E1__state = 1;
 				V_0 = (bool)1;
-				goto IL_0775;
+				goto IL_07c9;
 			}
 
 IL_00d3_1:
 			{
 				__this->___U3CU3E1__state = (-1);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:84>
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:87>
 				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_13 = __this->___U3CimageSourceU3E5__3;
 				NullCheck(L_13);
 				bool L_14;
@@ -4145,17 +4152,17 @@ IL_00d3_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:86>
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:89>
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral081FEFF96BA51B958061A36D2C85C723FD3CA338, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:87>
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:90>
 				V_0 = (bool)0;
-				goto IL_0775;
+				goto IL_07c9;
 			}
 
 IL_00ff_1:
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:92>
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:95>
 				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_16 = __this->___U3CU3E4__this;
 				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_17 = __this->___U3CimageSourceU3E5__3;
 				NullCheck(L_17);
@@ -4170,555 +4177,584 @@ IL_00ff_1:
 				NullCheck(L_16);
 				L_16->____textureFramePool = L_21;
 				Il2CppCodeGenWriteBarrier((void**)(&L_16->____textureFramePool), (void*)L_21);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:95>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_22 = __this->___U3CU3E4__this;
-				NullCheck(L_22);
-				Screen_t19E25F9F23695BFE719F4547CDCEB545C94AA221* L_23 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_22)->___screen;
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_24 = __this->___U3CimageSourceU3E5__3;
-				NullCheck(L_23);
-				Screen_Initialize_mE1CADE405267647ECE3B1DB0413C1B7FDFCE70D1(L_23, L_24, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:96>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_25 = __this->___U3CU3E4__this;
-				NullCheck(L_25);
-				RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_26 = L_25->____worldAnnotationArea;
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_27 = __this->___U3CimageSourceU3E5__3;
-				NullCheck(L_27);
-				int32_t L_28;
-				L_28 = VirtualFuncInvoker0< int32_t >::Invoke(11, L_27);
-				int32_t L_29;
-				L_29 = RotationAngleExtension_Reverse_m050A98E889CC1FA531C6761F04286ADE63FBB7C4(L_28, NULL);
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
-				L_30 = RotationAngleExtension_GetEulerAngles_m3CFF726449F073A3D7997091A90E4D2D437F31DC(L_29, NULL);
-				NullCheck(L_26);
-				Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_26, L_30, NULL);
 				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:98>
-				WaitForResult_t9CE697FF497DB41D10D0851A3F6F83E987643A21* L_31 = __this->___U3CgraphInitRequestU3E5__2;
-				__this->___U3CU3E2__current = L_31;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_31);
-				__this->___U3CU3E1__state = 2;
-				V_0 = (bool)1;
-				goto IL_0775;
-			}
-
-IL_017f_1:
-			{
-				__this->___U3CU3E1__state = (-1);
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_22 = __this->___U3CimageSourceU3E5__3;
+				NullCheck(L_22);
+				int32_t L_23;
+				L_23 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_22);
+				((HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_StaticFields*)il2cpp_codegen_static_fields_for(HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_il2cpp_TypeInfo_var))->___KslImgW = L_23;
 				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:99>
-				WaitForResult_t9CE697FF497DB41D10D0851A3F6F83E987643A21* L_32 = __this->___U3CgraphInitRequestU3E5__2;
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_24 = __this->___U3CimageSourceU3E5__3;
+				NullCheck(L_24);
+				int32_t L_25;
+				L_25 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_24);
+				((HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_StaticFields*)il2cpp_codegen_static_fields_for(HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_il2cpp_TypeInfo_var))->___KslImgH = L_25;
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:100>
+				int32_t L_26 = ((HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_StaticFields*)il2cpp_codegen_static_fields_for(HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_il2cpp_TypeInfo_var))->___KslImgW;
+				int32_t L_27 = L_26;
+				RuntimeObject* L_28 = Box(il2cpp_defaults.int32_class, &L_27);
+				int32_t L_29 = ((HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_StaticFields*)il2cpp_codegen_static_fields_for(HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_il2cpp_TypeInfo_var))->___KslImgH;
+				int32_t L_30 = L_29;
+				RuntimeObject* L_31 = Box(il2cpp_defaults.int32_class, &L_30);
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_32 = __this->___U3CimageSourceU3E5__3;
 				NullCheck(L_32);
-				bool L_33;
-				L_33 = WaitForResult_get_isError_mCB71E0F9EE7B389A1B35F8F6D8B23CC8EDC2C68C_inline(L_32, NULL);
-				V_3 = L_33;
-				bool L_34 = V_3;
-				if (!L_34)
-				{
-					goto IL_01ae_1;
-				}
-			}
-			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:101>
-				WaitForResult_t9CE697FF497DB41D10D0851A3F6F83E987643A21* L_35 = __this->___U3CgraphInitRequestU3E5__2;
-				NullCheck(L_35);
-				Exception_t* L_36;
-				L_36 = WaitForResult_get_error_m50931C1534C2BCF76C4F5126F3E41A772E313226_inline(L_35, NULL);
+				int32_t L_33;
+				L_33 = VirtualFuncInvoker0< int32_t >::Invoke(11, L_32);
+				int32_t L_34 = L_33;
+				RuntimeObject* L_35 = Box(RotationAngle_t8A2F6F40D52D14A072CBEDAABB817B2FB914D057_il2cpp_TypeInfo_var, &L_34);
+				String_t* L_36;
+				L_36 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral62BEF2A3000982EE3C5C9AFE8E469EA2128B0DCE, L_28, L_31, L_35, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_36, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:102>
-				V_0 = (bool)0;
-				goto IL_0775;
-			}
-
-IL_01ae_1:
-			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:105>
+				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_36, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:103>
 				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_37 = __this->___U3CU3E4__this;
 				NullCheck(L_37);
-				int32_t L_38 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_37)->___runningMode;
-				bool L_39;
-				L_39 = RunningModeExtension_IsSynchronous_m48B6E81C3155FEB63F0590D0E08E48BE9B1E0FF5(L_38, NULL);
-				V_4 = (bool)((((int32_t)L_39) == ((int32_t)0))? 1 : 0);
-				bool L_40 = V_4;
-				if (!L_40)
+				Screen_t19E25F9F23695BFE719F4547CDCEB545C94AA221* L_38 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_37)->___screen;
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_39 = __this->___U3CimageSourceU3E5__3;
+				NullCheck(L_38);
+				Screen_Initialize_mE1CADE405267647ECE3B1DB0413C1B7FDFCE70D1(L_38, L_39, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:104>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_40 = __this->___U3CU3E4__this;
+				NullCheck(L_40);
+				RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_41 = L_40->____worldAnnotationArea;
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_42 = __this->___U3CimageSourceU3E5__3;
+				NullCheck(L_42);
+				int32_t L_43;
+				L_43 = VirtualFuncInvoker0< int32_t >::Invoke(11, L_42);
+				int32_t L_44;
+				L_44 = RotationAngleExtension_Reverse_m050A98E889CC1FA531C6761F04286ADE63FBB7C4(L_43, NULL);
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
+				L_45 = RotationAngleExtension_GetEulerAngles_m3CFF726449F073A3D7997091A90E4D2D437F31DC(L_44, NULL);
+				NullCheck(L_41);
+				Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_41, L_45, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:106>
+				WaitForResult_t9CE697FF497DB41D10D0851A3F6F83E987643A21* L_46 = __this->___U3CgraphInitRequestU3E5__2;
+				__this->___U3CU3E2__current = L_46;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_46);
+				__this->___U3CU3E1__state = 2;
+				V_0 = (bool)1;
+				goto IL_07c9;
+			}
+
+IL_01d3_1:
+			{
+				__this->___U3CU3E1__state = (-1);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:107>
+				WaitForResult_t9CE697FF497DB41D10D0851A3F6F83E987643A21* L_47 = __this->___U3CgraphInitRequestU3E5__2;
+				NullCheck(L_47);
+				bool L_48;
+				L_48 = WaitForResult_get_isError_mCB71E0F9EE7B389A1B35F8F6D8B23CC8EDC2C68C_inline(L_47, NULL);
+				V_3 = L_48;
+				bool L_49 = V_3;
+				if (!L_49)
 				{
-					goto IL_02dc_1;
+					goto IL_0202_1;
 				}
 			}
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:107>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_41 = __this->___U3CU3E4__this;
-				NullCheck(L_41);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_42 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_41)->___graphRunner;
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_43 = __this->___U3CU3E4__this;
-				EventHandler_1_t27C62537DB246D16FBB84E87C2A5AF92625415D6* L_44 = (EventHandler_1_t27C62537DB246D16FBB84E87C2A5AF92625415D6*)il2cpp_codegen_object_new(EventHandler_1_t27C62537DB246D16FBB84E87C2A5AF92625415D6_il2cpp_TypeInfo_var);
-				EventHandler_1__ctor_mA1FB2F104391590100E97C752A8FD7B3B3C971D9(L_44, L_43, (intptr_t)((void*)HolisticTrackingSolution_OnPoseDetectionOutput_mD0E730054792D16EB7FD7EDCBA2BB85722443AFE_RuntimeMethod_var), NULL);
-				NullCheck(L_42);
-				HolisticTrackingGraph_add_OnPoseDetectionOutput_m21C38A531CC2CF4E758732FCB90675CB12D3233B(L_42, L_44, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:108>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_45 = __this->___U3CU3E4__this;
-				NullCheck(L_45);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_46 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_45)->___graphRunner;
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_47 = __this->___U3CU3E4__this;
-				EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0* L_48 = (EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0*)il2cpp_codegen_object_new(EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0_il2cpp_TypeInfo_var);
-				EventHandler_1__ctor_m84EA81D3E2E6842D20B28BD6C124E2F2718770F9(L_48, L_47, (intptr_t)((void*)HolisticTrackingSolution_OnFaceLandmarksOutput_mA5287565057933AC54700F88E179849C1CB95B53_RuntimeMethod_var), NULL);
-				NullCheck(L_46);
-				HolisticTrackingGraph_add_OnFaceLandmarksOutput_m4C73FBD12CEF59C256E5D716D5FFE35A9DFFCD76(L_46, L_48, NULL);
 				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:109>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_49 = __this->___U3CU3E4__this;
-				NullCheck(L_49);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_50 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_49)->___graphRunner;
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_51 = __this->___U3CU3E4__this;
-				EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0* L_52 = (EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0*)il2cpp_codegen_object_new(EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0_il2cpp_TypeInfo_var);
-				EventHandler_1__ctor_m84EA81D3E2E6842D20B28BD6C124E2F2718770F9(L_52, L_51, (intptr_t)((void*)HolisticTrackingSolution_OnPoseLandmarksOutput_mD9E7B67D21BCFADE65BFBC44DF5CFB446AB081E1_RuntimeMethod_var), NULL);
+				WaitForResult_t9CE697FF497DB41D10D0851A3F6F83E987643A21* L_50 = __this->___U3CgraphInitRequestU3E5__2;
 				NullCheck(L_50);
-				HolisticTrackingGraph_add_OnPoseLandmarksOutput_mEC1D266279C5CD756376B2428C3C65EBC7B91709(L_50, L_52, NULL);
+				Exception_t* L_51;
+				L_51 = WaitForResult_get_error_m50931C1534C2BCF76C4F5126F3E41A772E313226_inline(L_50, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_51, NULL);
 				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:110>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_53 = __this->___U3CU3E4__this;
-				NullCheck(L_53);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_54 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_53)->___graphRunner;
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_55 = __this->___U3CU3E4__this;
-				EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0* L_56 = (EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0*)il2cpp_codegen_object_new(EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0_il2cpp_TypeInfo_var);
-				EventHandler_1__ctor_m84EA81D3E2E6842D20B28BD6C124E2F2718770F9(L_56, L_55, (intptr_t)((void*)HolisticTrackingSolution_OnLeftHandLandmarksOutput_mB3CAA0D866213EDCCD81101B94C6EEC361291AE5_RuntimeMethod_var), NULL);
-				NullCheck(L_54);
-				HolisticTrackingGraph_add_OnLeftHandLandmarksOutput_m571BECA207DAA8CD070DC93EB5360AE0DDE316EE(L_54, L_56, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:111>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_57 = __this->___U3CU3E4__this;
-				NullCheck(L_57);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_58 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_57)->___graphRunner;
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_59 = __this->___U3CU3E4__this;
-				EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0* L_60 = (EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0*)il2cpp_codegen_object_new(EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0_il2cpp_TypeInfo_var);
-				EventHandler_1__ctor_m84EA81D3E2E6842D20B28BD6C124E2F2718770F9(L_60, L_59, (intptr_t)((void*)HolisticTrackingSolution_OnRightHandLandmarksOutput_m28B064D4A7200421D74DE9D710A2BEC47E8DEF97_RuntimeMethod_var), NULL);
-				NullCheck(L_58);
-				HolisticTrackingGraph_add_OnRightHandLandmarksOutput_mB370F88A8D3CFCE682FAD3496275B434BFDDD7E7(L_58, L_60, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:112>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_61 = __this->___U3CU3E4__this;
-				NullCheck(L_61);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_62 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_61)->___graphRunner;
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_63 = __this->___U3CU3E4__this;
-				EventHandler_1_tE5A15542BC42561EF99DB0838554A77D684518BE* L_64 = (EventHandler_1_tE5A15542BC42561EF99DB0838554A77D684518BE*)il2cpp_codegen_object_new(EventHandler_1_tE5A15542BC42561EF99DB0838554A77D684518BE_il2cpp_TypeInfo_var);
-				EventHandler_1__ctor_m99AC58517AECB894DB731CF696F898E14BE6ABE7(L_64, L_63, (intptr_t)((void*)HolisticTrackingSolution_OnPoseWorldLandmarksOutput_m10CF9E2D10ADF2A339B921FCCF6A01B17AB4C1F9_RuntimeMethod_var), NULL);
-				NullCheck(L_62);
-				HolisticTrackingGraph_add_OnPoseWorldLandmarksOutput_mDA6779F8E3E190D8CC986B11E75B1C2A5083FDBD(L_62, L_64, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:113>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_65 = __this->___U3CU3E4__this;
-				NullCheck(L_65);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_66 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_65)->___graphRunner;
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_67 = __this->___U3CU3E4__this;
-				EventHandler_1_t353E7773A22417694C0C8C61CF129E9DA4031511* L_68 = (EventHandler_1_t353E7773A22417694C0C8C61CF129E9DA4031511*)il2cpp_codegen_object_new(EventHandler_1_t353E7773A22417694C0C8C61CF129E9DA4031511_il2cpp_TypeInfo_var);
-				EventHandler_1__ctor_m63C3CF0E8764830F904581F1D5F14A600837C7A2(L_68, L_67, (intptr_t)((void*)HolisticTrackingSolution_OnSegmentationMaskOutput_m8AB7FD543C3A510E272BF674EF907617F8E1767C_RuntimeMethod_var), NULL);
-				NullCheck(L_66);
-				HolisticTrackingGraph_add_OnSegmentationMaskOutput_m0D5E21B84654A89E524C55948529443EE61D5515(L_66, L_68, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:114>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_69 = __this->___U3CU3E4__this;
-				NullCheck(L_69);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_70 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_69)->___graphRunner;
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_71 = __this->___U3CU3E4__this;
-				EventHandler_1_tB89F4957799D9D87187A9EC02E7BB2CF1994FEDE* L_72 = (EventHandler_1_tB89F4957799D9D87187A9EC02E7BB2CF1994FEDE*)il2cpp_codegen_object_new(EventHandler_1_tB89F4957799D9D87187A9EC02E7BB2CF1994FEDE_il2cpp_TypeInfo_var);
-				EventHandler_1__ctor_m3933E89EC59BB66A1830BEB46AA6964C6AF28396(L_72, L_71, (intptr_t)((void*)HolisticTrackingSolution_OnPoseRoiOutput_m760E5930D96E05330126D20FCD2B0AA6C4DBC6E9_RuntimeMethod_var), NULL);
-				NullCheck(L_70);
-				HolisticTrackingGraph_add_OnPoseRoiOutput_m5520802921DDE708760D568E3997739A7E15EB41(L_70, L_72, NULL);
+				V_0 = (bool)0;
+				goto IL_07c9;
 			}
 
-IL_02dc_1:
+IL_0202_1:
 			{
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:113>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_52 = __this->___U3CU3E4__this;
+				NullCheck(L_52);
+				int32_t L_53 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_52)->___runningMode;
+				bool L_54;
+				L_54 = RunningModeExtension_IsSynchronous_m48B6E81C3155FEB63F0590D0E08E48BE9B1E0FF5(L_53, NULL);
+				V_4 = (bool)((((int32_t)L_54) == ((int32_t)0))? 1 : 0);
+				bool L_55 = V_4;
+				if (!L_55)
+				{
+					goto IL_0330_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:115>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_56 = __this->___U3CU3E4__this;
+				NullCheck(L_56);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_57 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_56)->___graphRunner;
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_58 = __this->___U3CU3E4__this;
+				EventHandler_1_t27C62537DB246D16FBB84E87C2A5AF92625415D6* L_59 = (EventHandler_1_t27C62537DB246D16FBB84E87C2A5AF92625415D6*)il2cpp_codegen_object_new(EventHandler_1_t27C62537DB246D16FBB84E87C2A5AF92625415D6_il2cpp_TypeInfo_var);
+				EventHandler_1__ctor_mA1FB2F104391590100E97C752A8FD7B3B3C971D9(L_59, L_58, (intptr_t)((void*)HolisticTrackingSolution_OnPoseDetectionOutput_mD0E730054792D16EB7FD7EDCBA2BB85722443AFE_RuntimeMethod_var), NULL);
+				NullCheck(L_57);
+				HolisticTrackingGraph_add_OnPoseDetectionOutput_m21C38A531CC2CF4E758732FCB90675CB12D3233B(L_57, L_59, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:116>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_60 = __this->___U3CU3E4__this;
+				NullCheck(L_60);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_61 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_60)->___graphRunner;
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_62 = __this->___U3CU3E4__this;
+				EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0* L_63 = (EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0*)il2cpp_codegen_object_new(EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0_il2cpp_TypeInfo_var);
+				EventHandler_1__ctor_m84EA81D3E2E6842D20B28BD6C124E2F2718770F9(L_63, L_62, (intptr_t)((void*)HolisticTrackingSolution_OnFaceLandmarksOutput_mA5287565057933AC54700F88E179849C1CB95B53_RuntimeMethod_var), NULL);
+				NullCheck(L_61);
+				HolisticTrackingGraph_add_OnFaceLandmarksOutput_m4C73FBD12CEF59C256E5D716D5FFE35A9DFFCD76(L_61, L_63, NULL);
 				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:117>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_73 = __this->___U3CU3E4__this;
-				NullCheck(L_73);
-				DetectionAnnotationController_t71917589B7A6128C4C1EE016E74D0F21BBE4CA96* L_74 = L_73->____poseDetectionAnnotationController;
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_75 = __this->___U3CimageSourceU3E5__3;
-				LegacySolutionRunner_1_SetupAnnotationController_TisDetectionAnnotation_t698CDF56A6799A7C8F07A22462D7608E9AF0DE6F_m6BE2826B168C8650FD362A8E777106E6E919BF0E(L_74, L_75, (bool)0, LegacySolutionRunner_1_SetupAnnotationController_TisDetectionAnnotation_t698CDF56A6799A7C8F07A22462D7608E9AF0DE6F_m6BE2826B168C8650FD362A8E777106E6E919BF0E_RuntimeMethod_var);
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_64 = __this->___U3CU3E4__this;
+				NullCheck(L_64);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_65 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_64)->___graphRunner;
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_66 = __this->___U3CU3E4__this;
+				EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0* L_67 = (EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0*)il2cpp_codegen_object_new(EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0_il2cpp_TypeInfo_var);
+				EventHandler_1__ctor_m84EA81D3E2E6842D20B28BD6C124E2F2718770F9(L_67, L_66, (intptr_t)((void*)HolisticTrackingSolution_OnPoseLandmarksOutput_mD9E7B67D21BCFADE65BFBC44DF5CFB446AB081E1_RuntimeMethod_var), NULL);
+				NullCheck(L_65);
+				HolisticTrackingGraph_add_OnPoseLandmarksOutput_mEC1D266279C5CD756376B2428C3C65EBC7B91709(L_65, L_67, NULL);
 				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:118>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_68 = __this->___U3CU3E4__this;
+				NullCheck(L_68);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_69 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_68)->___graphRunner;
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_70 = __this->___U3CU3E4__this;
+				EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0* L_71 = (EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0*)il2cpp_codegen_object_new(EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0_il2cpp_TypeInfo_var);
+				EventHandler_1__ctor_m84EA81D3E2E6842D20B28BD6C124E2F2718770F9(L_71, L_70, (intptr_t)((void*)HolisticTrackingSolution_OnLeftHandLandmarksOutput_mB3CAA0D866213EDCCD81101B94C6EEC361291AE5_RuntimeMethod_var), NULL);
+				NullCheck(L_69);
+				HolisticTrackingGraph_add_OnLeftHandLandmarksOutput_m571BECA207DAA8CD070DC93EB5360AE0DDE316EE(L_69, L_71, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:119>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_72 = __this->___U3CU3E4__this;
+				NullCheck(L_72);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_73 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_72)->___graphRunner;
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_74 = __this->___U3CU3E4__this;
+				EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0* L_75 = (EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0*)il2cpp_codegen_object_new(EventHandler_1_t8223B8691943919B552B26E191B8ED10649E5FB0_il2cpp_TypeInfo_var);
+				EventHandler_1__ctor_m84EA81D3E2E6842D20B28BD6C124E2F2718770F9(L_75, L_74, (intptr_t)((void*)HolisticTrackingSolution_OnRightHandLandmarksOutput_m28B064D4A7200421D74DE9D710A2BEC47E8DEF97_RuntimeMethod_var), NULL);
+				NullCheck(L_73);
+				HolisticTrackingGraph_add_OnRightHandLandmarksOutput_mB370F88A8D3CFCE682FAD3496275B434BFDDD7E7(L_73, L_75, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:120>
 				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_76 = __this->___U3CU3E4__this;
 				NullCheck(L_76);
-				HolisticLandmarkListAnnotationController_tF9BA1E4B1E861DE7D7184611DE16E743DA498D92* L_77 = L_76->____holisticAnnotationController;
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_78 = __this->___U3CimageSourceU3E5__3;
-				LegacySolutionRunner_1_SetupAnnotationController_TisHolisticLandmarkListAnnotation_tA406C0E7FB92B1DFA9B515C916E6641D6D7EA7A7_m44E1F1EF56BDF8C35C17550FFE13837DF804CCAA(L_77, L_78, (bool)0, LegacySolutionRunner_1_SetupAnnotationController_TisHolisticLandmarkListAnnotation_tA406C0E7FB92B1DFA9B515C916E6641D6D7EA7A7_m44E1F1EF56BDF8C35C17550FFE13837DF804CCAA_RuntimeMethod_var);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:119>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_79 = __this->___U3CU3E4__this;
-				NullCheck(L_79);
-				PoseWorldLandmarkListAnnotationController_t85B0CEDF76D681992943901E0CFAF1306522BAF9* L_80 = L_79->____poseWorldLandmarksAnnotationController;
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_81 = __this->___U3CimageSourceU3E5__3;
-				LegacySolutionRunner_1_SetupAnnotationController_TisPoseLandmarkListAnnotation_t705A7441E833140DAAE6C4BB9C5CC7ADA5A61A45_m3A142515E6365DB6EE3534998ACF24CA65AF6F71(L_80, L_81, (bool)0, LegacySolutionRunner_1_SetupAnnotationController_TisPoseLandmarkListAnnotation_t705A7441E833140DAAE6C4BB9C5CC7ADA5A61A45_m3A142515E6365DB6EE3534998ACF24CA65AF6F71_RuntimeMethod_var);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:120>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_82 = __this->___U3CU3E4__this;
-				NullCheck(L_82);
-				MaskAnnotationController_tBF9A301B8F9A32C41713FD9314605EE4D1B90B99* L_83 = L_82->____segmentationMaskAnnotationController;
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_84 = __this->___U3CimageSourceU3E5__3;
-				LegacySolutionRunner_1_SetupAnnotationController_TisMaskAnnotation_t14D1534997B80728782CF7A380ACECE2ACB2D977_m64FFED94E7B3E92C8D256236B53A4322D5601D94(L_83, L_84, (bool)0, LegacySolutionRunner_1_SetupAnnotationController_TisMaskAnnotation_t14D1534997B80728782CF7A380ACECE2ACB2D977_m64FFED94E7B3E92C8D256236B53A4322D5601D94_RuntimeMethod_var);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_77 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_76)->___graphRunner;
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_78 = __this->___U3CU3E4__this;
+				EventHandler_1_tE5A15542BC42561EF99DB0838554A77D684518BE* L_79 = (EventHandler_1_tE5A15542BC42561EF99DB0838554A77D684518BE*)il2cpp_codegen_object_new(EventHandler_1_tE5A15542BC42561EF99DB0838554A77D684518BE_il2cpp_TypeInfo_var);
+				EventHandler_1__ctor_m99AC58517AECB894DB731CF696F898E14BE6ABE7(L_79, L_78, (intptr_t)((void*)HolisticTrackingSolution_OnPoseWorldLandmarksOutput_m10CF9E2D10ADF2A339B921FCCF6A01B17AB4C1F9_RuntimeMethod_var), NULL);
+				NullCheck(L_77);
+				HolisticTrackingGraph_add_OnPoseWorldLandmarksOutput_mDA6779F8E3E190D8CC986B11E75B1C2A5083FDBD(L_77, L_79, NULL);
 				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:121>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_85 = __this->___U3CU3E4__this;
-				NullCheck(L_85);
-				MaskAnnotationController_tBF9A301B8F9A32C41713FD9314605EE4D1B90B99* L_86 = L_85->____segmentationMaskAnnotationController;
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_87 = __this->___U3CimageSourceU3E5__3;
-				NullCheck(L_87);
-				int32_t L_88;
-				L_88 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_87);
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_89 = __this->___U3CimageSourceU3E5__3;
-				NullCheck(L_89);
-				int32_t L_90;
-				L_90 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_89);
-				NullCheck(L_86);
-				MaskAnnotationController_InitScreen_m7F0A453FA3E350AC52225EB9C04F2FF419863FEB(L_86, L_88, L_90, NULL);
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_80 = __this->___U3CU3E4__this;
+				NullCheck(L_80);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_81 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_80)->___graphRunner;
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_82 = __this->___U3CU3E4__this;
+				EventHandler_1_t353E7773A22417694C0C8C61CF129E9DA4031511* L_83 = (EventHandler_1_t353E7773A22417694C0C8C61CF129E9DA4031511*)il2cpp_codegen_object_new(EventHandler_1_t353E7773A22417694C0C8C61CF129E9DA4031511_il2cpp_TypeInfo_var);
+				EventHandler_1__ctor_m63C3CF0E8764830F904581F1D5F14A600837C7A2(L_83, L_82, (intptr_t)((void*)HolisticTrackingSolution_OnSegmentationMaskOutput_m8AB7FD543C3A510E272BF674EF907617F8E1767C_RuntimeMethod_var), NULL);
+				NullCheck(L_81);
+				HolisticTrackingGraph_add_OnSegmentationMaskOutput_m0D5E21B84654A89E524C55948529443EE61D5515(L_81, L_83, NULL);
 				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:122>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_84 = __this->___U3CU3E4__this;
+				NullCheck(L_84);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_85 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_84)->___graphRunner;
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_86 = __this->___U3CU3E4__this;
+				EventHandler_1_tB89F4957799D9D87187A9EC02E7BB2CF1994FEDE* L_87 = (EventHandler_1_tB89F4957799D9D87187A9EC02E7BB2CF1994FEDE*)il2cpp_codegen_object_new(EventHandler_1_tB89F4957799D9D87187A9EC02E7BB2CF1994FEDE_il2cpp_TypeInfo_var);
+				EventHandler_1__ctor_m3933E89EC59BB66A1830BEB46AA6964C6AF28396(L_87, L_86, (intptr_t)((void*)HolisticTrackingSolution_OnPoseRoiOutput_m760E5930D96E05330126D20FCD2B0AA6C4DBC6E9_RuntimeMethod_var), NULL);
+				NullCheck(L_85);
+				HolisticTrackingGraph_add_OnPoseRoiOutput_m5520802921DDE708760D568E3997739A7E15EB41(L_85, L_87, NULL);
+			}
+
+IL_0330_1:
+			{
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:125>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_88 = __this->___U3CU3E4__this;
+				NullCheck(L_88);
+				DetectionAnnotationController_t71917589B7A6128C4C1EE016E74D0F21BBE4CA96* L_89 = L_88->____poseDetectionAnnotationController;
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_90 = __this->___U3CimageSourceU3E5__3;
+				LegacySolutionRunner_1_SetupAnnotationController_TisDetectionAnnotation_t698CDF56A6799A7C8F07A22462D7608E9AF0DE6F_m6BE2826B168C8650FD362A8E777106E6E919BF0E(L_89, L_90, (bool)0, LegacySolutionRunner_1_SetupAnnotationController_TisDetectionAnnotation_t698CDF56A6799A7C8F07A22462D7608E9AF0DE6F_m6BE2826B168C8650FD362A8E777106E6E919BF0E_RuntimeMethod_var);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:126>
 				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_91 = __this->___U3CU3E4__this;
 				NullCheck(L_91);
-				NormalizedRectAnnotationController_t7F4135F5C2376FBB75AD0F37892EB3F6968E786F* L_92 = L_91->____poseRoiAnnotationController;
+				HolisticLandmarkListAnnotationController_tF9BA1E4B1E861DE7D7184611DE16E743DA498D92* L_92 = L_91->____holisticAnnotationController;
 				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_93 = __this->___U3CimageSourceU3E5__3;
-				LegacySolutionRunner_1_SetupAnnotationController_TisRectangleAnnotation_t622152C5AA0708E43726B5D9D208D93776379A23_mF582B94168B5D51729294272863FFA9F683E9029(L_92, L_93, (bool)0, LegacySolutionRunner_1_SetupAnnotationController_TisRectangleAnnotation_t622152C5AA0708E43726B5D9D208D93776379A23_mF582B94168B5D51729294272863FFA9F683E9029_RuntimeMethod_var);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:124>
+				LegacySolutionRunner_1_SetupAnnotationController_TisHolisticLandmarkListAnnotation_tA406C0E7FB92B1DFA9B515C916E6641D6D7EA7A7_m44E1F1EF56BDF8C35C17550FFE13837DF804CCAA(L_92, L_93, (bool)0, LegacySolutionRunner_1_SetupAnnotationController_TisHolisticLandmarkListAnnotation_tA406C0E7FB92B1DFA9B515C916E6641D6D7EA7A7_m44E1F1EF56BDF8C35C17550FFE13837DF804CCAA_RuntimeMethod_var);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:127>
 				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_94 = __this->___U3CU3E4__this;
 				NullCheck(L_94);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_95 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_94)->___graphRunner;
+				PoseWorldLandmarkListAnnotationController_t85B0CEDF76D681992943901E0CFAF1306522BAF9* L_95 = L_94->____poseWorldLandmarksAnnotationController;
 				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_96 = __this->___U3CimageSourceU3E5__3;
-				NullCheck(L_95);
-				VirtualActionInvoker1< ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* >::Invoke(8, L_95, L_96);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:126>
-				U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* L_97 = __this->___U3CU3E8__1;
+				LegacySolutionRunner_1_SetupAnnotationController_TisPoseLandmarkListAnnotation_t705A7441E833140DAAE6C4BB9C5CC7ADA5A61A45_m3A142515E6365DB6EE3534998ACF24CA65AF6F71(L_95, L_96, (bool)0, LegacySolutionRunner_1_SetupAnnotationController_TisPoseLandmarkListAnnotation_t705A7441E833140DAAE6C4BB9C5CC7ADA5A61A45_m3A142515E6365DB6EE3534998ACF24CA65AF6F71_RuntimeMethod_var);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:128>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_97 = __this->___U3CU3E4__this;
 				NullCheck(L_97);
-				AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* L_98 = (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7*)(&L_97->___req);
-				il2cpp_codegen_initobj(L_98, sizeof(AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7));
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:127>
-				U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* L_99 = __this->___U3CU3E8__1;
-				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_100 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
-				Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_100, L_99, (intptr_t)((void*)U3CU3Ec__DisplayClass35_0_U3CRunU3Eb__0_mE29A9B675D8DF68D368520834DD28550B4785922_RuntimeMethod_var), NULL);
-				WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD* L_101 = (WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD*)il2cpp_codegen_object_new(WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD_il2cpp_TypeInfo_var);
-				WaitUntil__ctor_m2C925CF39695C35F4CB1AC997531F203AE1434DF(L_101, L_100, NULL);
-				__this->___U3CwaitUntilReqDoneU3E5__4 = L_101;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CwaitUntilReqDoneU3E5__4), (void*)L_101);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:130>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_102 = __this->___U3CU3E4__this;
+				MaskAnnotationController_tBF9A301B8F9A32C41713FD9314605EE4D1B90B99* L_98 = L_97->____segmentationMaskAnnotationController;
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_99 = __this->___U3CimageSourceU3E5__3;
+				LegacySolutionRunner_1_SetupAnnotationController_TisMaskAnnotation_t14D1534997B80728782CF7A380ACECE2ACB2D977_m64FFED94E7B3E92C8D256236B53A4322D5601D94(L_98, L_99, (bool)0, LegacySolutionRunner_1_SetupAnnotationController_TisMaskAnnotation_t14D1534997B80728782CF7A380ACECE2ACB2D977_m64FFED94E7B3E92C8D256236B53A4322D5601D94_RuntimeMethod_var);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:129>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_100 = __this->___U3CU3E4__this;
+				NullCheck(L_100);
+				MaskAnnotationController_tBF9A301B8F9A32C41713FD9314605EE4D1B90B99* L_101 = L_100->____segmentationMaskAnnotationController;
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_102 = __this->___U3CimageSourceU3E5__3;
 				NullCheck(L_102);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_103 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_102)->___graphRunner;
-				NullCheck(L_103);
-				int32_t L_104;
-				L_104 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_103);
-				if ((!(((uint32_t)L_104) == ((uint32_t)3))))
+				int32_t L_103;
+				L_103 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_102);
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_104 = __this->___U3CimageSourceU3E5__3;
+				NullCheck(L_104);
+				int32_t L_105;
+				L_105 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_104);
+				NullCheck(L_101);
+				MaskAnnotationController_InitScreen_m7F0A453FA3E350AC52225EB9C04F2FF419863FEB(L_101, L_103, L_105, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:130>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_106 = __this->___U3CU3E4__this;
+				NullCheck(L_106);
+				NormalizedRectAnnotationController_t7F4135F5C2376FBB75AD0F37892EB3F6968E786F* L_107 = L_106->____poseRoiAnnotationController;
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_108 = __this->___U3CimageSourceU3E5__3;
+				LegacySolutionRunner_1_SetupAnnotationController_TisRectangleAnnotation_t622152C5AA0708E43726B5D9D208D93776379A23_mF582B94168B5D51729294272863FFA9F683E9029(L_107, L_108, (bool)0, LegacySolutionRunner_1_SetupAnnotationController_TisRectangleAnnotation_t622152C5AA0708E43726B5D9D208D93776379A23_mF582B94168B5D51729294272863FFA9F683E9029_RuntimeMethod_var);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:132>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_109 = __this->___U3CU3E4__this;
+				NullCheck(L_109);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_110 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_109)->___graphRunner;
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_111 = __this->___U3CimageSourceU3E5__3;
+				NullCheck(L_110);
+				VirtualActionInvoker1< ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* >::Invoke(8, L_110, L_111);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:134>
+				U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* L_112 = __this->___U3CU3E8__1;
+				NullCheck(L_112);
+				AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* L_113 = (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7*)(&L_112->___req);
+				il2cpp_codegen_initobj(L_113, sizeof(AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7));
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:135>
+				U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* L_114 = __this->___U3CU3E8__1;
+				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_115 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+				Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_115, L_114, (intptr_t)((void*)U3CU3Ec__DisplayClass37_0_U3CRunU3Eb__0_mAAE7B81928AA785BDC7DBB832313DCF04952EE7F_RuntimeMethod_var), NULL);
+				WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD* L_116 = (WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD*)il2cpp_codegen_object_new(WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD_il2cpp_TypeInfo_var);
+				WaitUntil__ctor_m2C925CF39695C35F4CB1AC997531F203AE1434DF(L_116, L_115, NULL);
+				__this->___U3CwaitUntilReqDoneU3E5__4 = L_116;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CwaitUntilReqDoneU3E5__4), (void*)L_116);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:138>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_117 = __this->___U3CU3E4__this;
+				NullCheck(L_117);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_118 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_117)->___graphRunner;
+				NullCheck(L_118);
+				int32_t L_119;
+				L_119 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_118);
+				if ((!(((uint32_t)L_119) == ((uint32_t)3))))
 				{
 					G_B22_0 = __this;
-					goto IL_03dd_1;
+					goto IL_0431_1;
 				}
 				G_B21_0 = __this;
 			}
 			{
 				il2cpp_codegen_runtime_class_init_inline(GpuManager_tD453B0D85D1DDC53EFB43E0AC56A3DC6D7B85098_il2cpp_TypeInfo_var);
-				GpuResources_tAEED7E437F937835BC14B16DA199C14CE472A6F3* L_105;
-				L_105 = GpuManager_get_GpuResources_m27470F5AA88E1EFC39F726DBD25CC1D8D446DBA2_inline(NULL);
-				G_B23_0 = ((!(((RuntimeObject*)(GpuResources_tAEED7E437F937835BC14B16DA199C14CE472A6F3*)L_105) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+				GpuResources_tAEED7E437F937835BC14B16DA199C14CE472A6F3* L_120;
+				L_120 = GpuManager_get_GpuResources_m27470F5AA88E1EFC39F726DBD25CC1D8D446DBA2_inline(NULL);
+				G_B23_0 = ((!(((RuntimeObject*)(GpuResources_tAEED7E437F937835BC14B16DA199C14CE472A6F3*)L_120) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 				G_B23_1 = G_B21_0;
-				goto IL_03de_1;
+				goto IL_0432_1;
 			}
 
-IL_03dd_1:
+IL_0431_1:
 			{
 				G_B23_0 = 0;
 				G_B23_1 = G_B22_0;
 			}
 
-IL_03de_1:
+IL_0432_1:
 			{
 				NullCheck(G_B23_1);
 				G_B23_1->___U3CcanUseGpuImageU3E5__5 = (bool)G_B23_0;
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:131>
-				bool L_106 = __this->___U3CcanUseGpuImageU3E5__5;
-				if (L_106)
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:139>
+				bool L_121 = __this->___U3CcanUseGpuImageU3E5__5;
+				if (L_121)
 				{
 					G_B25_0 = __this;
-					goto IL_03ef_1;
+					goto IL_0443_1;
 				}
 				G_B24_0 = __this;
 			}
 			{
 				G_B26_0 = ((GlContext_t73D5FC05E5A4B840AE95BC66FD49F606AE1220BD*)(NULL));
 				G_B26_1 = G_B24_0;
-				goto IL_03f4_1;
+				goto IL_0448_1;
 			}
 
-IL_03ef_1:
+IL_0443_1:
 			{
 				il2cpp_codegen_runtime_class_init_inline(GpuManager_tD453B0D85D1DDC53EFB43E0AC56A3DC6D7B85098_il2cpp_TypeInfo_var);
-				GlContext_t73D5FC05E5A4B840AE95BC66FD49F606AE1220BD* L_107;
-				L_107 = GpuManager_GetGlContext_m8860DA322A21D9B8705ACF3499F7162C20201885(NULL);
-				G_B26_0 = L_107;
+				GlContext_t73D5FC05E5A4B840AE95BC66FD49F606AE1220BD* L_122;
+				L_122 = GpuManager_GetGlContext_m8860DA322A21D9B8705ACF3499F7162C20201885(NULL);
+				G_B26_0 = L_122;
 				G_B26_1 = G_B25_0;
 			}
 
-IL_03f4_1:
+IL_0448_1:
 			{
 				NullCheck(G_B26_1);
 				G_B26_1->___U3CglContextU3E5__6 = G_B26_0;
 				Il2CppCodeGenWriteBarrier((void**)(&G_B26_1->___U3CglContextU3E5__6), (void*)G_B26_0);
 				__this->___U3CU3E1__state = ((int32_t)-3);
-				goto IL_0765_1;
+				goto IL_07b9_1;
 			}
 
-IL_0406_1:
+IL_045a_1:
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:135>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_108 = __this->___U3CU3E4__this;
-				NullCheck(L_108);
-				bool L_109 = ((BaseRunner_tE5E8A30A727BF0F6FC4E44DF8B71419C414B1ADA*)L_108)->___isPaused;
-				V_5 = L_109;
-				bool L_110 = V_5;
-				if (!L_110)
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:143>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_123 = __this->___U3CU3E4__this;
+				NullCheck(L_123);
+				bool L_124 = ((BaseRunner_tE5E8A30A727BF0F6FC4E44DF8B71419C414B1ADA*)L_123)->___isPaused;
+				V_5 = L_124;
+				bool L_125 = V_5;
+				if (!L_125)
 				{
-					goto IL_046b_1;
+					goto IL_04bf_1;
 				}
 			}
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:137>
-				U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* L_111 = __this->___U3CU3E8__1;
-				NullCheck(L_111);
-				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_112 = L_111->___U3CU3E9__1;
-				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_113 = L_112;
-				if (L_113)
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:145>
+				U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* L_126 = __this->___U3CU3E8__1;
+				NullCheck(L_126);
+				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_127 = L_126->___U3CU3E9__1;
+				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_128 = L_127;
+				if (L_128)
 				{
-					G_B30_0 = L_113;
+					G_B30_0 = L_128;
 					G_B30_1 = __this;
-					goto IL_044a_1;
+					goto IL_049e_1;
 				}
-				G_B29_0 = L_113;
+				G_B29_0 = L_128;
 				G_B29_1 = __this;
 			}
 			{
-				U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* L_114 = __this->___U3CU3E8__1;
-				U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* L_115 = __this->___U3CU3E8__1;
-				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_116 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
-				Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_116, L_115, (intptr_t)((void*)U3CU3Ec__DisplayClass35_0_U3CRunU3Eb__1_m6A3FBD5A271CE2B3672B28FAA0BE6295ED97EF4F_RuntimeMethod_var), NULL);
-				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_117 = L_116;
-				V_6 = L_117;
-				NullCheck(L_114);
-				L_114->___U3CU3E9__1 = L_117;
-				Il2CppCodeGenWriteBarrier((void**)(&L_114->___U3CU3E9__1), (void*)L_117);
-				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_118 = V_6;
-				G_B30_0 = L_118;
+				U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* L_129 = __this->___U3CU3E8__1;
+				U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* L_130 = __this->___U3CU3E8__1;
+				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_131 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+				Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_131, L_130, (intptr_t)((void*)U3CU3Ec__DisplayClass37_0_U3CRunU3Eb__1_m7DF329EE622137BE90B25EE5C10DDF313A8A64E9_RuntimeMethod_var), NULL);
+				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_132 = L_131;
+				V_6 = L_132;
+				NullCheck(L_129);
+				L_129->___U3CU3E9__1 = L_132;
+				Il2CppCodeGenWriteBarrier((void**)(&L_129->___U3CU3E9__1), (void*)L_132);
+				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_133 = V_6;
+				G_B30_0 = L_133;
 				G_B30_1 = G_B29_1;
 			}
 
-IL_044a_1:
+IL_049e_1:
 			{
-				WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967* L_119 = (WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967*)il2cpp_codegen_object_new(WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967_il2cpp_TypeInfo_var);
-				WaitWhile__ctor_mF803B2F3BC88135FEA9024F6C51E7267A7E7B82C(L_119, G_B30_0, NULL);
+				WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967* L_134 = (WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967*)il2cpp_codegen_object_new(WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967_il2cpp_TypeInfo_var);
+				WaitWhile__ctor_mF803B2F3BC88135FEA9024F6C51E7267A7E7B82C(L_134, G_B30_0, NULL);
 				NullCheck(G_B30_1);
-				G_B30_1->___U3CU3E2__current = L_119;
-				Il2CppCodeGenWriteBarrier((void**)(&G_B30_1->___U3CU3E2__current), (void*)L_119);
+				G_B30_1->___U3CU3E2__current = L_134;
+				Il2CppCodeGenWriteBarrier((void**)(&G_B30_1->___U3CU3E2__current), (void*)L_134);
 				__this->___U3CU3E1__state = 3;
 				V_0 = (bool)1;
-				goto IL_0775;
+				goto IL_07c9;
 			}
 
-IL_0462_1:
+IL_04b6_1:
 			{
 				__this->___U3CU3E1__state = ((int32_t)-3);
 			}
 
-IL_046b_1:
+IL_04bf_1:
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:140>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_120 = __this->___U3CU3E4__this;
-				NullCheck(L_120);
-				TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F* L_121 = L_120->____textureFramePool;
-				TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8** L_122 = (TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8**)(&__this->___U3CtextureFrameU3E5__7);
-				NullCheck(L_121);
-				bool L_123;
-				L_123 = TextureFramePool_TryGetTextureFrame_m5E29523CB7DE6854A4034B21857D39CA0A9B5671(L_121, L_122, NULL);
-				V_7 = (bool)((((int32_t)L_123) == ((int32_t)0))? 1 : 0);
-				bool L_124 = V_7;
-				if (!L_124)
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:148>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_135 = __this->___U3CU3E4__this;
+				NullCheck(L_135);
+				TextureFramePool_tE52C52AED27B64A560D95FC68DDEA42CAC8C084F* L_136 = L_135->____textureFramePool;
+				TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8** L_137 = (TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8**)(&__this->___U3CtextureFrameU3E5__7);
+				NullCheck(L_136);
+				bool L_138;
+				L_138 = TextureFramePool_TryGetTextureFrame_m5E29523CB7DE6854A4034B21857D39CA0A9B5671(L_136, L_137, NULL);
+				V_7 = (bool)((((int32_t)L_138) == ((int32_t)0))? 1 : 0);
+				bool L_139 = V_7;
+				if (!L_139)
 				{
-					goto IL_04b1_1;
+					goto IL_0505_1;
 				}
 			}
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:142>
-				WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_125 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
-				WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_125, NULL);
-				__this->___U3CU3E2__current = L_125;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_125);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:150>
+				WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_140 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
+				WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_140, NULL);
+				__this->___U3CU3E2__current = L_140;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_140);
 				__this->___U3CU3E1__state = 4;
 				V_0 = (bool)1;
-				goto IL_0775;
+				goto IL_07c9;
 			}
 
-IL_04a4_1:
+IL_04f8_1:
 			{
 				__this->___U3CU3E1__state = ((int32_t)-3);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:143>
-				goto IL_0765_1;
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:151>
+				goto IL_07b9_1;
 			}
 
-IL_04b1_1:
+IL_0505_1:
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:147>
-				bool L_126 = __this->___U3CcanUseGpuImageU3E5__5;
-				V_8 = L_126;
-				bool L_127 = V_8;
-				if (!L_127)
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:155>
+				bool L_141 = __this->___U3CcanUseGpuImageU3E5__5;
+				V_8 = L_141;
+				bool L_142 = V_8;
+				if (!L_142)
 				{
-					goto IL_04fe_1;
+					goto IL_0552_1;
 				}
 			}
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:149>
-				WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_128 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
-				WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_128, NULL);
-				__this->___U3CU3E2__current = L_128;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_128);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:157>
+				WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_143 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
+				WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_143, NULL);
+				__this->___U3CU3E2__current = L_143;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_143);
 				__this->___U3CU3E1__state = 5;
 				V_0 = (bool)1;
-				goto IL_0775;
+				goto IL_07c9;
 			}
 
-IL_04d7_1:
+IL_052b_1:
 			{
 				__this->___U3CU3E1__state = ((int32_t)-3);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:150>
-				TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* L_129 = __this->___U3CtextureFrameU3E5__7;
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_130 = __this->___U3CimageSourceU3E5__3;
-				NullCheck(L_130);
-				Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_131;
-				L_131 = VirtualFuncInvoker0< Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* >::Invoke(22, L_130);
-				NullCheck(L_129);
-				TextureFrame_ReadTextureOnGPU_mE9030FC835F01BA11E209B7F53FC3229A1E4EDC3(L_129, L_131, (bool)0, (bool)0, NULL);
-				goto IL_0597_1;
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:158>
+				TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* L_144 = __this->___U3CtextureFrameU3E5__7;
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_145 = __this->___U3CimageSourceU3E5__3;
+				NullCheck(L_145);
+				Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_146;
+				L_146 = VirtualFuncInvoker0< Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* >::Invoke(22, L_145);
+				NullCheck(L_144);
+				TextureFrame_ReadTextureOnGPU_mE9030FC835F01BA11E209B7F53FC3229A1E4EDC3(L_144, L_146, (bool)0, (bool)0, NULL);
+				goto IL_05eb_1;
 			}
 
-IL_04fe_1:
+IL_0552_1:
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:154>
-				U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* L_132 = __this->___U3CU3E8__1;
-				TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* L_133 = __this->___U3CtextureFrameU3E5__7;
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_134 = __this->___U3CimageSourceU3E5__3;
-				NullCheck(L_134);
-				Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_135;
-				L_135 = VirtualFuncInvoker0< Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* >::Invoke(22, L_134);
-				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_136 = __this->___U3CimageSourceU3E5__3;
-				NullCheck(L_136);
-				bool L_137;
-				L_137 = VirtualFuncInvoker0< bool >::Invoke(9, L_136);
-				NullCheck(L_133);
-				AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 L_138;
-				L_138 = TextureFrame_ReadTextureAsync_m3B09856C4AC00D5057A01B177010D8D8AC8F7CC2(L_133, L_135, (bool)0, L_137, NULL);
-				NullCheck(L_132);
-				L_132->___req = L_138;
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:155>
-				WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD* L_139 = __this->___U3CwaitUntilReqDoneU3E5__4;
-				__this->___U3CU3E2__current = L_139;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_139);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:162>
+				U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* L_147 = __this->___U3CU3E8__1;
+				TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* L_148 = __this->___U3CtextureFrameU3E5__7;
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_149 = __this->___U3CimageSourceU3E5__3;
+				NullCheck(L_149);
+				Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_150;
+				L_150 = VirtualFuncInvoker0< Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* >::Invoke(22, L_149);
+				ImageSource_t35AB89906C9D2ADED9D4C24AA8F2C50C97BE2DD4* L_151 = __this->___U3CimageSourceU3E5__3;
+				NullCheck(L_151);
+				bool L_152;
+				L_152 = VirtualFuncInvoker0< bool >::Invoke(9, L_151);
+				NullCheck(L_148);
+				AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 L_153;
+				L_153 = TextureFrame_ReadTextureAsync_m3B09856C4AC00D5057A01B177010D8D8AC8F7CC2(L_148, L_150, (bool)0, L_152, NULL);
+				NullCheck(L_147);
+				L_147->___req = L_153;
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:163>
+				WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD* L_154 = __this->___U3CwaitUntilReqDoneU3E5__4;
+				__this->___U3CU3E2__current = L_154;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_154);
 				__this->___U3CU3E1__state = 6;
 				V_0 = (bool)1;
-				goto IL_0775;
+				goto IL_07c9;
 			}
 
-IL_0546_1:
+IL_059a_1:
 			{
 				__this->___U3CU3E1__state = ((int32_t)-3);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:157>
-				U3CU3Ec__DisplayClass35_0_tCE1D32157F56B140A40B9DC5AECA54D8E26BBBDA* L_140 = __this->___U3CU3E8__1;
-				NullCheck(L_140);
-				AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* L_141 = (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7*)(&L_140->___req);
-				bool L_142;
-				L_142 = AsyncGPUReadbackRequest_get_hasError_m374BB20A32B9DCDBFD8F81BBE542847B82F04EE5(L_141, NULL);
-				V_9 = L_142;
-				bool L_143 = V_9;
-				if (!L_143)
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:165>
+				U3CU3Ec__DisplayClass37_0_t5C11CC62A9A3816396B8295764E7AF306AC31C61* L_155 = __this->___U3CU3E8__1;
+				NullCheck(L_155);
+				AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* L_156 = (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7*)(&L_155->___req);
+				bool L_157;
+				L_157 = AsyncGPUReadbackRequest_get_hasError_m374BB20A32B9DCDBFD8F81BBE542847B82F04EE5(L_156, NULL);
+				V_9 = L_157;
+				bool L_158 = V_9;
+				if (!L_158)
 				{
-					goto IL_0596_1;
+					goto IL_05ea_1;
 				}
 			}
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:159>
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:167>
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral92E775F015A80F155E5E809D648BC43CD58501C7, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:160>
-				WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_144 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
-				WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_144, NULL);
-				__this->___U3CU3E2__current = L_144;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_144);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:168>
+				WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_159 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
+				WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_159, NULL);
+				__this->___U3CU3E2__current = L_159;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_159);
 				__this->___U3CU3E1__state = 7;
 				V_0 = (bool)1;
-				goto IL_0775;
+				goto IL_07c9;
 			}
 
-IL_0589_1:
+IL_05dd_1:
 			{
 				__this->___U3CU3E1__state = ((int32_t)-3);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:161>
-				goto IL_0765_1;
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:169>
+				goto IL_07b9_1;
 			}
 
-IL_0596_1:
+IL_05ea_1:
 			{
 			}
 
-IL_0597_1:
+IL_05eb_1:
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:165>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_145 = __this->___U3CU3E4__this;
-				NullCheck(L_145);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_146 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_145)->___graphRunner;
-				TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* L_147 = __this->___U3CtextureFrameU3E5__7;
-				GlContext_t73D5FC05E5A4B840AE95BC66FD49F606AE1220BD* L_148 = __this->___U3CglContextU3E5__6;
-				NullCheck(L_146);
-				HolisticTrackingGraph_AddTextureFrameToInputStream_m3DCFE45A9F8B96335D1A0C42C69D668E4DDF6B0B(L_146, L_147, L_148, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:167>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_149 = __this->___U3CU3E4__this;
-				NullCheck(L_149);
-				int32_t L_150 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_149)->___runningMode;
-				bool L_151;
-				L_151 = RunningModeExtension_IsSynchronous_m48B6E81C3155FEB63F0590D0E08E48BE9B1E0FF5(L_150, NULL);
-				V_10 = L_151;
-				bool L_152 = V_10;
-				if (!L_152)
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:173>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_160 = __this->___U3CU3E4__this;
+				NullCheck(L_160);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_161 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_160)->___graphRunner;
+				TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* L_162 = __this->___U3CtextureFrameU3E5__7;
+				GlContext_t73D5FC05E5A4B840AE95BC66FD49F606AE1220BD* L_163 = __this->___U3CglContextU3E5__6;
+				NullCheck(L_161);
+				HolisticTrackingGraph_AddTextureFrameToInputStream_m3DCFE45A9F8B96335D1A0C42C69D668E4DDF6B0B(L_161, L_162, L_163, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:175>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_164 = __this->___U3CU3E4__this;
+				NullCheck(L_164);
+				int32_t L_165 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_164)->___runningMode;
+				bool L_166;
+				L_166 = RunningModeExtension_IsSynchronous_m48B6E81C3155FEB63F0590D0E08E48BE9B1E0FF5(L_165, NULL);
+				V_10 = L_166;
+				bool L_167 = V_10;
+				if (!L_167)
 				{
-					goto IL_075d_1;
+					goto IL_07b1_1;
 				}
 			}
 			{
-				U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E* L_153 = (U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E_il2cpp_TypeInfo_var);
-				U3CU3Ec__DisplayClass35_1__ctor_m40BDEAC2847FB4E8E69A2CA4D20F6269457912BE(L_153, NULL);
-				__this->___U3CU3E8__8 = L_153;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__8), (void*)L_153);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:169>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_154 = __this->___U3CU3E4__this;
-				NullCheck(L_154);
-				Screen_t19E25F9F23695BFE719F4547CDCEB545C94AA221* L_155 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_154)->___screen;
-				TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* L_156 = __this->___U3CtextureFrameU3E5__7;
-				NullCheck(L_155);
-				Screen_ReadSync_mD58A96E8F13D2D1438505286F8B8209475A064A4(L_155, L_156, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:171>
-				U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E* L_157 = __this->___U3CU3E8__8;
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_158 = __this->___U3CU3E4__this;
-				NullCheck(L_158);
-				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_159 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_158)->___graphRunner;
-				NullCheck(L_159);
-				Task_1_t5623BD18B97B169122EAF499256CBD6BCC70FF9D* L_160;
-				L_160 = HolisticTrackingGraph_WaitNextAsync_mB47354D640F13D482AA8DD459873D86F99DBF9A9(L_159, NULL);
-				NullCheck(L_157);
-				L_157->___task = L_160;
-				Il2CppCodeGenWriteBarrier((void**)(&L_157->___task), (void*)L_160);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:172>
-				U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E* L_161 = __this->___U3CU3E8__8;
-				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_162 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
-				Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_162, L_161, (intptr_t)((void*)U3CU3Ec__DisplayClass35_1_U3CRunU3Eb__2_m654B060275A751C55CF66180202648166856B265_RuntimeMethod_var), NULL);
-				WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD* L_163 = (WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD*)il2cpp_codegen_object_new(WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD_il2cpp_TypeInfo_var);
-				WaitUntil__ctor_m2C925CF39695C35F4CB1AC997531F203AE1434DF(L_163, L_162, NULL);
-				__this->___U3CU3E2__current = L_163;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_163);
+				U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA* L_168 = (U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA_il2cpp_TypeInfo_var);
+				U3CU3Ec__DisplayClass37_1__ctor_m7D28C4B19E88AC227A1070C23D62ECF101D374A1(L_168, NULL);
+				__this->___U3CU3E8__8 = L_168;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__8), (void*)L_168);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:177>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_169 = __this->___U3CU3E4__this;
+				NullCheck(L_169);
+				Screen_t19E25F9F23695BFE719F4547CDCEB545C94AA221* L_170 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_169)->___screen;
+				TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8* L_171 = __this->___U3CtextureFrameU3E5__7;
+				NullCheck(L_170);
+				Screen_ReadSync_mD58A96E8F13D2D1438505286F8B8209475A064A4(L_170, L_171, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:179>
+				U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA* L_172 = __this->___U3CU3E8__8;
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_173 = __this->___U3CU3E4__this;
+				NullCheck(L_173);
+				HolisticTrackingGraph_t5198A1FB823B5CC6212ADBA96C28C8F3B74A8868* L_174 = ((LegacySolutionRunner_1_t024D8F1285C1AB6189F479DF626564CB9FA194ED*)L_173)->___graphRunner;
+				NullCheck(L_174);
+				Task_1_t5623BD18B97B169122EAF499256CBD6BCC70FF9D* L_175;
+				L_175 = HolisticTrackingGraph_WaitNextAsync_mB47354D640F13D482AA8DD459873D86F99DBF9A9(L_174, NULL);
+				NullCheck(L_172);
+				L_172->___task = L_175;
+				Il2CppCodeGenWriteBarrier((void**)(&L_172->___task), (void*)L_175);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:180>
+				U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA* L_176 = __this->___U3CU3E8__8;
+				Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_177 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+				Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_177, L_176, (intptr_t)((void*)U3CU3Ec__DisplayClass37_1_U3CRunU3Eb__2_m914FAF83658347A0A110130FBDD17050077AE311_RuntimeMethod_var), NULL);
+				WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD* L_178 = (WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD*)il2cpp_codegen_object_new(WaitUntil_tA1CD487C5811E7C1F8C4ADA85DF5F4EFDC1D41BD_il2cpp_TypeInfo_var);
+				WaitUntil__ctor_m2C925CF39695C35F4CB1AC997531F203AE1434DF(L_178, L_177, NULL);
+				__this->___U3CU3E2__current = L_178;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_178);
 				__this->___U3CU3E1__state = 8;
 				V_0 = (bool)1;
-				goto IL_0775;
+				goto IL_07c9;
 			}
 
-IL_0635_1:
+IL_0689_1:
 			{
 				__this->___U3CU3E1__state = ((int32_t)-3);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:174>
-				U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E* L_164 = __this->___U3CU3E8__8;
-				NullCheck(L_164);
-				Task_1_t5623BD18B97B169122EAF499256CBD6BCC70FF9D* L_165 = L_164->___task;
-				NullCheck(L_165);
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B L_166;
-				L_166 = Task_1_get_Result_mAF7D5CA603BD9E5FDABECD2D68A319311152EDC0(L_165, Task_1_get_Result_mAF7D5CA603BD9E5FDABECD2D68A319311152EDC0_RuntimeMethod_var);
-				__this->___U3CresultU3E5__9 = L_166;
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:182>
+				U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA* L_179 = __this->___U3CU3E8__8;
+				NullCheck(L_179);
+				Task_1_t5623BD18B97B169122EAF499256CBD6BCC70FF9D* L_180 = L_179->___task;
+				NullCheck(L_180);
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B L_181;
+				L_181 = Task_1_get_Result_mAF7D5CA603BD9E5FDABECD2D68A319311152EDC0(L_180, Task_1_get_Result_mAF7D5CA603BD9E5FDABECD2D68A319311152EDC0_RuntimeMethod_var);
+				__this->___U3CresultU3E5__9 = L_181;
 				Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CresultU3E5__9))->___poseDetection), (void*)NULL);
 				#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 				Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CresultU3E5__9))->___poseLandmarks), (void*)NULL);
@@ -4741,120 +4777,120 @@ IL_0635_1:
 				#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 				Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CresultU3E5__9))->___poseRoi), (void*)NULL);
 				#endif
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:175>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_167 = __this->___U3CU3E4__this;
-				NullCheck(L_167);
-				DetectionAnnotationController_t71917589B7A6128C4C1EE016E74D0F21BBE4CA96* L_168 = L_167->____poseDetectionAnnotationController;
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_169 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				Detection_t859492E99C64086E47D1E0D68BB250445B91F096* L_170 = L_169->___poseDetection;
-				NullCheck(L_168);
-				DetectionAnnotationController_DrawNow_m47A6FFEEA4D2BA0C7868591714DDDF7F08E2C2E1(L_168, L_170, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:176>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_171 = __this->___U3CU3E4__this;
-				NullCheck(L_171);
-				HolisticLandmarkListAnnotationController_tF9BA1E4B1E861DE7D7184611DE16E743DA498D92* L_172 = L_171->____holisticAnnotationController;
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_173 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_174 = L_173->___faceLandmarks;
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_175 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_176 = L_175->___poseLandmarks;
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_177 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_178 = L_177->___leftHandLandmarks;
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_179 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_180 = L_179->___rightHandLandmarks;
-				NullCheck(L_172);
-				HolisticLandmarkListAnnotationController_DrawNow_m8837FE018C7B1B7E7B810043789A5B3E8A8592F1(L_172, L_174, L_176, L_178, L_180, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:177>
-				Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* L_181 = ((HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_StaticFields*)il2cpp_codegen_static_fields_for(HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_il2cpp_TypeInfo_var))->___OnKslLandmarks;
-				Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* L_182 = L_181;
-				if (L_182)
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:183>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_182 = __this->___U3CU3E4__this;
+				NullCheck(L_182);
+				DetectionAnnotationController_t71917589B7A6128C4C1EE016E74D0F21BBE4CA96* L_183 = L_182->____poseDetectionAnnotationController;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_184 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				Detection_t859492E99C64086E47D1E0D68BB250445B91F096* L_185 = L_184->___poseDetection;
+				NullCheck(L_183);
+				DetectionAnnotationController_DrawNow_m47A6FFEEA4D2BA0C7868591714DDDF7F08E2C2E1(L_183, L_185, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:184>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_186 = __this->___U3CU3E4__this;
+				NullCheck(L_186);
+				HolisticLandmarkListAnnotationController_tF9BA1E4B1E861DE7D7184611DE16E743DA498D92* L_187 = L_186->____holisticAnnotationController;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_188 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_189 = L_188->___faceLandmarks;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_190 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_191 = L_190->___poseLandmarks;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_192 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_193 = L_192->___leftHandLandmarks;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_194 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_195 = L_194->___rightHandLandmarks;
+				NullCheck(L_187);
+				HolisticLandmarkListAnnotationController_DrawNow_m8837FE018C7B1B7E7B810043789A5B3E8A8592F1(L_187, L_189, L_191, L_193, L_195, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:185>
+				Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* L_196 = ((HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_StaticFields*)il2cpp_codegen_static_fields_for(HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107_il2cpp_TypeInfo_var))->___OnKslLandmarks;
+				Action_3_tEC58C639F6DFA7307E3D00EAFBE2BFF90A63000B* L_197 = L_196;
+				if (L_197)
 				{
-					G_B47_0 = L_182;
-					goto IL_06b7_1;
+					G_B47_0 = L_197;
+					goto IL_070b_1;
 				}
-				G_B46_0 = L_182;
+				G_B46_0 = L_197;
 			}
 			{
-				goto IL_06de_1;
+				goto IL_0732_1;
 			}
 
-IL_06b7_1:
+IL_070b_1:
 			{
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_183 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_184 = L_183->___poseLandmarks;
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_185 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_186 = L_185->___leftHandLandmarks;
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_187 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_188 = L_187->___rightHandLandmarks;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_198 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_199 = L_198->___poseLandmarks;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_200 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_201 = L_200->___leftHandLandmarks;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_202 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				NormalizedLandmarkList_tB747440B8A615FB0A9007C1BF1A3144080F790BE* L_203 = L_202->___rightHandLandmarks;
 				NullCheck(G_B47_0);
-				Action_3_Invoke_mF3902CA597101A5F6D7638D626AEC39570C23AFD_inline(G_B47_0, L_184, L_186, L_188, NULL);
+				Action_3_Invoke_mF3902CA597101A5F6D7638D626AEC39570C23AFD_inline(G_B47_0, L_199, L_201, L_203, NULL);
 			}
 
-IL_06de_1:
+IL_0732_1:
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:178>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_189 = __this->___U3CU3E4__this;
-				NullCheck(L_189);
-				PoseWorldLandmarkListAnnotationController_t85B0CEDF76D681992943901E0CFAF1306522BAF9* L_190 = L_189->____poseWorldLandmarksAnnotationController;
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_191 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				LandmarkList_tB18051ADB38C41E484D19D9A880381C136A3E338* L_192 = L_191->___poseWorldLandmarks;
-				NullCheck(L_190);
-				PoseWorldLandmarkListAnnotationController_DrawNow_mF650F9CF265BBBAFD3711E12D961E946F2F23AB9(L_190, L_192, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:179>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_193 = __this->___U3CU3E4__this;
-				NullCheck(L_193);
-				MaskAnnotationController_tBF9A301B8F9A32C41713FD9314605EE4D1B90B99* L_194 = L_193->____segmentationMaskAnnotationController;
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_195 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* L_196 = L_195->___segmentationMask;
-				NullCheck(L_194);
-				MaskAnnotationController_DrawNow_mF783FAA92553E863D2DCABB1A356EC50C1542B31(L_194, L_196, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:180>
-				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_197 = __this->___U3CU3E4__this;
-				NullCheck(L_197);
-				NormalizedRectAnnotationController_t7F4135F5C2376FBB75AD0F37892EB3F6968E786F* L_198 = L_197->____poseRoiAnnotationController;
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_199 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				NormalizedRect_t3AEBF250D7F89F9F37B4F04D06BA6C255DB276A1* L_200 = L_199->___poseRoi;
-				NullCheck(L_198);
-				NormalizedRectAnnotationController_DrawNow_mA4E3A8CABB941F90B2E9D35322112BC246988115(L_198, L_200, NULL);
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:182>
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_201 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* L_202 = L_201->___segmentationMask;
-				ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* L_203 = L_202;
-				if (L_203)
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:186>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_204 = __this->___U3CU3E4__this;
+				NullCheck(L_204);
+				PoseWorldLandmarkListAnnotationController_t85B0CEDF76D681992943901E0CFAF1306522BAF9* L_205 = L_204->____poseWorldLandmarksAnnotationController;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_206 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				LandmarkList_tB18051ADB38C41E484D19D9A880381C136A3E338* L_207 = L_206->___poseWorldLandmarks;
+				NullCheck(L_205);
+				PoseWorldLandmarkListAnnotationController_DrawNow_mF650F9CF265BBBAFD3711E12D961E946F2F23AB9(L_205, L_207, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:187>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_208 = __this->___U3CU3E4__this;
+				NullCheck(L_208);
+				MaskAnnotationController_tBF9A301B8F9A32C41713FD9314605EE4D1B90B99* L_209 = L_208->____segmentationMaskAnnotationController;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_210 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* L_211 = L_210->___segmentationMask;
+				NullCheck(L_209);
+				MaskAnnotationController_DrawNow_mF783FAA92553E863D2DCABB1A356EC50C1542B31(L_209, L_211, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:188>
+				HolisticTrackingSolution_t9E0C1ED027B3FE006F09A2CF729AAC449782F107* L_212 = __this->___U3CU3E4__this;
+				NullCheck(L_212);
+				NormalizedRectAnnotationController_t7F4135F5C2376FBB75AD0F37892EB3F6968E786F* L_213 = L_212->____poseRoiAnnotationController;
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_214 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				NormalizedRect_t3AEBF250D7F89F9F37B4F04D06BA6C255DB276A1* L_215 = L_214->___poseRoi;
+				NullCheck(L_213);
+				NormalizedRectAnnotationController_DrawNow_mA4E3A8CABB941F90B2E9D35322112BC246988115(L_213, L_215, NULL);
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:190>
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_216 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* L_217 = L_216->___segmentationMask;
+				ImageFrame_t287DF9F1650ADA9B5F1D9B430437531A0752A85F* L_218 = L_217;
+				if (L_218)
 				{
-					G_B50_0 = L_203;
-					goto IL_0743_1;
+					G_B50_0 = L_218;
+					goto IL_0797_1;
 				}
-				G_B49_0 = L_203;
+				G_B49_0 = L_218;
 			}
 			{
-				goto IL_0749_1;
+				goto IL_079d_1;
 			}
 
-IL_0743_1:
+IL_0797_1:
 			{
 				NullCheck(G_B50_0);
 				DisposableObject_Dispose_mA430428DF5028C7C185E26A8AA634CF69ACE9F32(G_B50_0, NULL);
 			}
 
-IL_0749_1:
+IL_079d_1:
 			{
-				__this->___U3CU3E8__8 = (U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E*)NULL;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__8), (void*)(U3CU3Ec__DisplayClass35_1_tFA50F3186A9CFA185BF35C2ED9C76CB4DC2B794E*)NULL);
-				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_204 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
-				il2cpp_codegen_initobj(L_204, sizeof(HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B));
+				__this->___U3CU3E8__8 = (U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA*)NULL;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__8), (void*)(U3CU3Ec__DisplayClass37_1_tF0FC89D36F24E4A85B87569C93B771B22320D9BA*)NULL);
+				HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B* L_219 = (HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B*)(&__this->___U3CresultU3E5__9);
+				il2cpp_codegen_initobj(L_219, sizeof(HolisticTrackingResult_tD2716A24AF8C46EA098F37D5F844D294A0692E0B));
 			}
 
-IL_075d_1:
+IL_07b1_1:
 			{
 				__this->___U3CtextureFrameU3E5__7 = (TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8*)NULL;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextureFrameU3E5__7), (void*)(TextureFrame_t90E06B4D17F8F97811A155B320A8DAB3AF5E89C8*)NULL);
 			}
 
-IL_0765_1:
+IL_07b9_1:
 			{
-				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:133>
+				//<source_info:C:/Users/Stu_33/Documents/GitHub/Artti_SB2026/Assets/Samples/MediaPipe Unity Plugin/0.16.3/Official Solutions/Scenes/Legacy/Holistic/HolisticTrackingSolution.cs:141>
 				V_11 = (bool)1;
-				goto IL_0406_1;
+				goto IL_045a_1;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -4863,14 +4899,14 @@ IL_0765_1:
 		}
 	}
 
-IL_0775:
+IL_07c9:
 	{
-		bool L_205 = V_0;
-		return L_205;
+		bool L_220 = V_0;
+		return L_220;
 	}
 }
 // Method Definition Index: 128446
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__35_U3CU3Em__Finally1_mFE192761CF16236111D9F66597F82CEA1E44BBC3 (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__37_U3CU3Em__Finally1_m6FFB6EDBE69AEEF698BA3FA28CACFDF56A9DAF6B (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4898,7 +4934,7 @@ IL_001b:
 	}
 }
 // Method Definition Index: 128447
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__35_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m143DF44BBB6A93F9B6CE061421A44B5DD47BE390 (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m17D8E489608E8F999CF0A3C12DE06276859118A8 (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -4906,16 +4942,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__35_System_Collecti
 	}
 }
 // Method Definition Index: 128448
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__35_System_Collections_IEnumerator_Reset_mCAF8C6019BB8C38D68A5039ED8665B8C72763A3E (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunU3Ed__37_System_Collections_IEnumerator_Reset_m6484A37CC5C2881FACD0C43696401E1ED196F5E2 (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRunU3Ed__35_System_Collections_IEnumerator_Reset_mCAF8C6019BB8C38D68A5039ED8665B8C72763A3E_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRunU3Ed__37_System_Collections_IEnumerator_Reset_m6484A37CC5C2881FACD0C43696401E1ED196F5E2_RuntimeMethod_var)));
 	}
 }
 // Method Definition Index: 128449
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__35_System_Collections_IEnumerator_get_Current_mE3076D5B1E0B1E2EA186A7C7DD41F44C725E8873 (U3CRunU3Ed__35_t665494268BD11B870E5E82C1471C4E2D75722B08* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRunU3Ed__37_System_Collections_IEnumerator_get_Current_mC081D6C5F684B607142CF68226A5AFEF22159BBE (U3CRunU3Ed__37_t0E9B064CB4F25552B1FB2B78A54BE8F807EA4D32* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;

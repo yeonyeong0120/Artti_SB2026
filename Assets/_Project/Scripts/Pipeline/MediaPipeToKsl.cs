@@ -14,6 +14,9 @@ public class MediaPipeToKsl : MonoBehaviour
     [Header("연결: 씬의 KslRecognizer")]
     public KslRecognizer recognizer;
 
+    [Header("(선택) 녹화기 — 학습 데이터 수집용")]
+    public KslRecorder recorder;
+
     // ── 27관절 매핑 (입력 규격서와 동일) ──
     // 몸 7점 = MediaPipe Pose 인덱스: 코, L어깨, R어깨, L팔꿈치, R팔꿈치, L손목, R손목
     static readonly int[] PoseIdx = { 0, 11, 12, 13, 14, 15, 16 };
@@ -22,6 +25,8 @@ public class MediaPipeToKsl : MonoBehaviour
 
     const int V = 27;   // 관절 수
     const int C = 3;    // x, y, conf
+
+    static int _dumpN = 0;   // 진단 로그 횟수
 
     // 매 프레임 호출.
     //   pose       : MediaPipe Pose 33점 (정규화 0~1). 미검출이면 null
@@ -39,6 +44,17 @@ public class MediaPipeToKsl : MonoBehaviour
         float[] frame = new float[V * C];   // 81개
         int j = 0;                          // 27관절 채우는 위치
 
+        // === 진단 로그: 실제 좌표 방향 확인 (처음 8번만) ===
+        // 카메라 앞에 똑바로 서서 보세요. 학습 기준:
+        //   코 y < 어깨 y (코가 위) / L어깨 x > R어깨 x (거울 아님) / 손목 y > 어깨 y (손이 아래)
+        if (_dumpN < 8 && pose != null && pose.Length > 16)
+        {
+            Debug.Log($"[KSL-DUMP] nose=({pose[0].x:F2},{pose[0].y:F2}) " +
+                      $"Lsh=({pose[11].x:F2},{pose[11].y:F2}) Rsh=({pose[12].x:F2},{pose[12].y:F2}) " +
+                      $"Lwr=({pose[15].x:F2},{pose[15].y:F2}) Rwr=({pose[16].x:F2},{pose[16].y:F2})");
+            _dumpN++;
+        }
+
         // 1) 몸 7점
         foreach (int idx in PoseIdx)
             WriteJoint(frame, ref j, pose, idx, imgW, imgH);
@@ -52,6 +68,7 @@ public class MediaPipeToKsl : MonoBehaviour
             WriteJoint(frame, ref j, rightHand, idx, imgW, imgH);
 
         recognizer.OnFrame(frame);
+        if (recorder != null) recorder.Feed(frame);   // 녹화 모드일 때 데이터 수집
     }
 
     // 관절 1개 채우기: (x_픽셀, y_픽셀, conf). 점이 없으면 (0, 0, 0)

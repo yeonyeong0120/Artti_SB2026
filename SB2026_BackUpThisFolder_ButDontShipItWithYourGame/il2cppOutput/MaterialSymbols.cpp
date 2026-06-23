@@ -550,7 +550,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 136716
+// Method Definition Index: 136745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t0206BAD9EC336E708410D989668B2C8FBA3AAAA0 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m81D650C50874AB012DB86BC4232A68C2C620A988 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -593,7 +593,7 @@ IL_005d:
 		return L_7;
 	}
 }
-// Method Definition Index: 136717
+// Method Definition Index: 136746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m06A81CD3E9B5B9ADA51C3CC325E92FE889024FA2 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t8058F32999971E6902982D13B3A22851F0694D40* __this, const RuntimeMethod* method) 
 {
 	{
@@ -679,7 +679,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t0206BAD9EC336E708410D989668B2C8FBA3AAAA0_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 136718
+// Method Definition Index: 136747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialSymbolData_tDD013D0607D478F1017455AA20620D1B5A0DB9AE MaterialSymbol_get_symbol_m1B866EE2FCADD0B6815C96BD5BD0F2C6D5B6FDFF (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, const RuntimeMethod* method) 
 {
 	MaterialSymbolData_tDD013D0607D478F1017455AA20620D1B5A0DB9AE V_0;
@@ -698,7 +698,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 136719
+// Method Definition Index: 136748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_set_symbol_m9E47867FB6DB7826268EC385CC29CA4D6ED34509 (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, MaterialSymbolData_tDD013D0607D478F1017455AA20620D1B5A0DB9AE ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -711,7 +711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_set_symbol_m9E47867FB6DB7
 		return;
 	}
 }
-// Method Definition Index: 136720
+// Method Definition Index: 136749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar MaterialSymbol_get_code_m03974433FEDF518F35BB341F52748E281A87862A (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, const RuntimeMethod* method) 
 {
 	Il2CppChar V_0 = 0x0;
@@ -730,7 +730,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 136721
+// Method Definition Index: 136750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_set_code_m95639A5071FCBDA19E1F89679E3B701283D5FF05 (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, Il2CppChar ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -744,7 +744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_set_code_m95639A5071FCBDA
 		return;
 	}
 }
-// Method Definition Index: 136722
+// Method Definition Index: 136751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaterialSymbol_get_fill_mC494E1616F496C224EF35BCDB961B25BDB94B3DC (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -763,7 +763,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 136723
+// Method Definition Index: 136752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_set_fill_m91D151C5B6059EB452B537B3402D92702DAE2435 (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -777,7 +777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_set_fill_m91D151C5B6059EB
 		return;
 	}
 }
-// Method Definition Index: 136724
+// Method Definition Index: 136753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MaterialSymbol_get_scale_m053FA95F8FA0A06233A3AF35D2C9F932AEFCAC3D (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -795,7 +795,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 136725
+// Method Definition Index: 136754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_set_scale_mD81DBCDD4E820E6AC368FBE2F2402D4A439463C1 (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -808,7 +808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_set_scale_mD81DBCDD4E820E
 		return;
 	}
 }
-// Method Definition Index: 136726
+// Method Definition Index: 136755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_Start_mFB8EC5001D50546484C9BF54AE411DCD1B1D3B1D (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -865,7 +865,7 @@ IL_0039:
 		return;
 	}
 }
-// Method Definition Index: 136727
+// Method Definition Index: 136756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_Init_mA9885AEC5D1C715A7D45D951DD53589EC02ADF13 (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, const RuntimeMethod* method) 
 {
 	{
@@ -900,7 +900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_Init_mA9885AEC5D1C715A7D4
 		return;
 	}
 }
-// Method Definition Index: 136728
+// Method Definition Index: 136757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_UpdateSymbol_mD129C38162FA20449F64D681201147813FC15D4D (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1000,7 +1000,7 @@ IL_0058:
 		return;
 	}
 }
-// Method Definition Index: 136729
+// Method Definition Index: 136758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_UpdateFontSize_m34CE83B1C75C87E63DF436164B210391867D3086 (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1040,7 +1040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_UpdateFontSize_m34CE83B1C
 		return;
 	}
 }
-// Method Definition Index: 136730
+// Method Definition Index: 136759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_OnRectTransformDimensionsChange_mC8EF97663810D88DC793F38DDB9C076FC48B2824 (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1052,7 +1052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol_OnRectTransformDimensions
 		return;
 	}
 }
-// Method Definition Index: 136731
+// Method Definition Index: 136760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialSymbolsFontRef_tA9F573B71AE8F19950BDB80F99D318092463AE03* MaterialSymbol_LoadFontRef_mB5BD34D0A2EDC8B39A6950D214C9B8EECEAE720E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1078,7 +1078,7 @@ IL_000e:
 		return L_1;
 	}
 }
-// Method Definition Index: 136732
+// Method Definition Index: 136761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MaterialSymbol_ConvertCharToHex_m8500B59C11DE2DFB69DEF4171713FD2F0F0570BF (Il2CppChar ___0_code, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1128,7 +1128,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 136733
+// Method Definition Index: 136762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar MaterialSymbol_ConvertHexToChar_m0AA3DD68606A569F6F537162867A3402BFE03F5A (String_t* ___0_hex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1180,7 +1180,7 @@ IL_0018:
 		return L_4;
 	}
 }
-// Method Definition Index: 136734
+// Method Definition Index: 136763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbol__ctor_m9AE777621B3332A85628F4208E3F5DDFE6447CED (MaterialSymbol_t97AA1D760B8D1821C7A83262D379C174420A6932* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1232,7 +1232,7 @@ IL2CPP_EXTERN_C void MaterialSymbolData_tDD013D0607D478F1017455AA20620D1B5A0DB9A
 IL2CPP_EXTERN_C void MaterialSymbolData_tDD013D0607D478F1017455AA20620D1B5A0DB9AE_marshal_com_cleanup(MaterialSymbolData_tDD013D0607D478F1017455AA20620D1B5A0DB9AE_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 136735
+// Method Definition Index: 136764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbolData__ctor_mB4A37D8E0A018F4F48477BF42761EF7AD8D5C4B6 (MaterialSymbolData_tDD013D0607D478F1017455AA20620D1B5A0DB9AE* __this, Il2CppChar ___0_code, bool ___1_fill, const RuntimeMethod* method) 
 {
 	{
@@ -1261,7 +1261,7 @@ IL2CPP_EXTERN_C  void MaterialSymbolData__ctor_mB4A37D8E0A018F4F48477BF42761EF7A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 136736
+// Method Definition Index: 136765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Font_tC95270EA3198038970422D78B74A7F2E218A96B6* MaterialSymbolsFontRef_get_standard_m9E56BFBC580511D3A0462675FB03B1E5B040E4FB (MaterialSymbolsFontRef_tA9F573B71AE8F19950BDB80F99D318092463AE03* __this, const RuntimeMethod* method) 
 {
 	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* V_0 = NULL;
@@ -1279,7 +1279,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 136737
+// Method Definition Index: 136766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Font_tC95270EA3198038970422D78B74A7F2E218A96B6* MaterialSymbolsFontRef_get_filled_m5E3C0F77E32A44BB475709EFBA0575E5732F242C (MaterialSymbolsFontRef_tA9F573B71AE8F19950BDB80F99D318092463AE03* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1326,7 +1326,7 @@ IL_0020:
 		return L_4;
 	}
 }
-// Method Definition Index: 136738
+// Method Definition Index: 136767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialSymbolsFontRef__ctor_mAA8C35E04E4FF4BE14BF9470AEFE42EC0F10155D (MaterialSymbolsFontRef_tA9F573B71AE8F19950BDB80F99D318092463AE03* __this, const RuntimeMethod* method) 
 {
 	{
